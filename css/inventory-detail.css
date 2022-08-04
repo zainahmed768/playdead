@@ -1,0 +1,109 @@
+/* Frame Css Start Here */
+.frame-wrapper .nav-menu ul.menus {
+    padding-top: 25px;
+}
+.frame-wrapper {
+    background-image: url('../img/inventorybg.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+/* Frame Css End Here */
+
+/* Inventroy Detail Css Start Here */
+.inventory-detailed {
+    padding: 30px 0 100px;
+}
+.inventory-detailed .Player-statusDv {
+    background-image: linear-gradient( to right, #181718, #101011, #1a191a, #232323, #171617);
+    padding: 30px 40px 90px;
+    margin: -10px 0.3px -10px;
+    border-left-width: 4px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    border-left-style: solid;
+    border-right-width: 4px;
+    border-right-style: solid;
+}
+.inventory-detailed .Player-statusDv .head h3.title {
+    color: #E3BF4B;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.inventory-detailed .Player-statusDv ul.status-list {
+    padding: 0;
+    margin: 0;
+}
+.inventory-detailed .Player-statusDv ul.status-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #313131;
+    padding: 8px 0 0px;
+}
+.inventory-detailed .Player-statusDv ul.status-list li h4 {
+    color: #e3bf4b;
+}
+.inventory-detailed .Player-statusDv ul.status-list li  span {
+    color: #fff;
+    font-family: 'aniron';
+}
+.inventory-detailed .product-details .heading h1.title {
+    color: #E3BF4B;
+    font-family: 'aniron';
+    font-size: 26px;
+}
+.inventory-detailed .product-details .heading {
+    padding-bottom: 20px;
+}
+.inventory-detailed .product-details .image-with-btn {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 75%;
+    margin-bottom: 20px;
+}
+.inventory-detailed .product-details .button-group .btn {
+    background-image: linear-gradient( to right, #2c2c2c, #1f1f20, #030305, #040406, #040406 );
+    background-repeat: no-repeat;
+    color: #FFC300;
+    font-family: "aniron";
+    font-size: 15px;
+    border: 3px solid;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+    border-width: 3px;
+    cursor: pointer;
+}
+.inventory-detailed .product-details .image-with-btn .button-group .btn {
+    padding: 14px 65px;
+}
+.inventory-detailed .product-details .description p {
+    color: #ffffffa6;
+    padding-right: 150px;
+}
+.inventory-detailed .product-details  .button-group .btn {
+    padding: 13px 90px;
+}
+/* Inventroy Detail Css Start Here */

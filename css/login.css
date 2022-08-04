@@ -1,0 +1,123 @@
+.frame-wrapper {
+    background-image: url("../img/loginbg.png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 3rem 2rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+  }
+  .frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+  }
+  .frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+  }
+ 
+  a.btn-theme {
+    background-image: linear-gradient(
+      to right,
+      #000002,
+      #101011,
+      #1a191a,
+      #232323,
+      #2c2c2c
+    );
+    background-repeat: no-repeat;
+    padding: 15px 70px;
+    color: #ffe698 !important;
+    font-family: "aniron";
+    font-size: 15px;
+    border: 3px solid;
+    border-image-source: linear-gradient(
+      to right,
+      #b88425,
+      #c5973f,
+      #d2a957,
+      #e0bc6f,
+      #edcf88,
+      #efd28b,
+      #f1d58f,
+      #f3d892,
+      #eacb80,
+      #e1bf6f,
+      #d9b25d,
+      #d0a64c
+    ) !important;
+    border-image-slice: 1;
+    border-width: 3px;
+  }
+/* login card css start here */
+.login{
+    padding: 5rem 0rem;
+}
+.login .login-wrapper {
+    background: url(../img/login-wrapper-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 7rem 2rem;
+}
+.login-wrapper .form-check-input {
+    margin: 0px;
+    top: 5px;
+}
+.login-wrapper h4 {
+    color: #FFE698;
+    font-family: 'aniron';
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+.login-wrapper .form-submit {
+    display: block;
+    /* margin: 0px auto; */
+    background: url(../img/button-bg.png);
+    border: 0px;
+    background-size: 100% 100%;
+    color: #FFE698;
+    font-family: 'aniron';
+    font-size: 9px;
+    width: 154px;
+    height: 50px;
+    line-height: 47px;
+    text-align: center;
+}
+.login-wrapper input.login-field {
+    background: #000;
+    padding: 15px 26px;
+    border-radius: 25px;
+    border: 3px solid #FFE496;
+    color: #FFE396 !important;
+    font-family: 'Montserrat';
+    font-size: 13px;
+}
+.login-wrapper input.login-field::placeholder{
+    color: #FFE396 !important;
+}
+.login-wrapper .form-check-label {
+    color: #DBDBDB;
+    font-size: 13px;
+    font-family: 'Montserrat';
+}
+.login-wrapper a.forget-password {
+    color: #DBDBDB !important;
+    font-size: 13px;
+}
+.login-wrapper span.create-account {
+    color: #DBDBDB;
+    font-family: 'Montserrat';
+}
+.login-wrapper span.create-account a {
+    color: #FFE698;
+}
+/* login card css start here */

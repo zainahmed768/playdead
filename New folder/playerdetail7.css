@@ -1,0 +1,743 @@
+::-webkit-scrollbar {
+	width: 0;
+}
+button {
+	font-size: 11px;
+	font-family: "aniron";
+}
+h3 {
+	font-size: 16px;
+	font-family: "aniron";
+}
+h4 {
+	font-size: 12px;
+	font-family: "aniron";
+}
+h5 {
+	font-size: 8px;
+	font-family: "aniron";
+}
+figure {
+	margin-bottom: 0;
+}
+.frame-wrapper {
+	background-image: url("../img/playerbackseven.png") !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 5rem 2rem 5rem;
+	margin: 4.5rem 2rem;
+	position: relative;
+}
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+}
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+}
+/* Box One Css Start Here */
+.main-content .DetailBox .for-hidden {
+	opacity: 0;
+}
+.main-content .DetailBox .level .form-group {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.main-content .DetailBox .level .form-group label {
+	color: #e3bf4b;
+	font-family: "aniron";
+	font-size: 14px;
+	width: 80px;
+	margin-bottom: 0;
+}
+.main-content .DetailBox .level .form-group input {
+	color: #e3bf4b;
+	border: 0;
+	font-family: "aniron";
+	font-size: 16px;
+	width: 40px;
+	text-align: center;
+	outline: none;
+	border-style: solid;
+	border-width: 3px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	padding: 0 0 3px;
+	background-image: linear-gradient(to right, #2c2c2c, #161616);
+}
+.characterImg {
+	margin-left: -18rem;
+	margin-top: -3.5rem;
+}
+.main-content .DetailBox .Detail-inner .forTop-border img {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.main-content .DetailBox .Detail-inner .forBottom-border img {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.main-content .DetailBox .Detail-inner .itemsBox {
+	background-image: linear-gradient(to right, #2c2c2c, #161616);
+	padding: 20px 10px;
+	margin: -10px 0.3px -10px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	position: relative;
+	z-index: 1;
+}
+.main-content .DetailBox .Detail-inner .itemsBox .clothings {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.main-content .DetailBox .Detail-inner .itemsBox .clothings .imgbox {
+	border-style: solid;
+	border-width: 2px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	padding: 0 10px;
+	width: 90px;
+	position: relative;
+	height: 60px;
+	overflow: hidden;
+}
+.main-content .DetailBox .Detail-inner .itemsBox .clothings .imgbox figure img {
+	margin: 0px auto;
+	display: table;
+}
+.main-content .DetailBox .Detail-inner .itemsBox .clothings .contentDv {
+	padding-left: 10px;
+	width: 100%;
+}
+.main-content
+	.DetailBox
+	.Detail-inner
+	.itemsBox
+	.clothings
+	.contentDv
+	h5.title {
+	font-size: 8px;
+	color: #e3bf4b;
+}
+.main-content
+	.DetailBox
+	.Detail-inner
+	.itemsBox
+	.clothings
+	.contentDv
+	ul.lists {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+	column-count: 2;
+}
+.main-content
+	.DetailBox
+	.Detail-inner
+	.itemsBox
+	.clothings
+	.contentDv
+	ul.lists
+	li {
+	font-size: 8px;
+	font-family: "Poppins";
+}
+/* Box One Css End Here */
+
+/* Character Detail Css Start Here */
+.main-content .characterDetail button.btn {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	padding: 15px 0px;
+	width: 180px;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 15px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	cursor: pointer;
+}
+.main-content .characterDetail .character-exp .progress label {
+	position: absolute;
+	top: 18px;
+	color: #ffe799;
+	font-size: 8px;
+	font-weight: 700;
+	right: 0;
+}
+.main-content .characterDetail .character-exp {
+	position: relative;
+	margin-top: 30px;
+	width: 50%;
+	visibility: hidden;
+}
+.main-content .characterDetail .character-exp .progress {
+	border-radius: 0;
+	height: 8px;
+	background-image: linear-gradient(
+		to right,
+		#c7973f,
+		#d6ac59,
+		#d5ac5a,
+		#cea24d,
+		#ffe799
+	);
+}
+.main-content .characterDetail .character-exp .progress .progress-bar {
+	height: 8px;
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+}
+.main-content .characterDetail .character-exp h4 {
+	font-family: "aniron";
+	color: #e3bf4b;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+/* Character Detail Css End Here */
+
+/* Weapons Css Start Here */
+.main-content .weaponsDv-withBorder {
+	margin-top: -25px;
+	position: relative;
+}
+.main-content .forTop-border figure img {
+	width: 100%;
+}
+.main-content .forBottom-border figure img {
+	width: 100%;
+}
+.main-content .weaponsDv {
+	background-image: linear-gradient(
+		to right,
+		#181718,
+		#101011,
+		#1a191a,
+		#232323,
+		#171617
+	);
+	padding: 20px 20px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	margin: -10px 0.3px -10px;
+}
+.main-content .weaponsDv .title h4 {
+	color: #e3bf4b;
+	text-align: center;
+}
+.main-content .weaponsDv .weapons-Slider {
+	padding-top: 30px;
+}
+.main-content .weaponsDv .weapons-items {
+	display: flex !important;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.main-content .weaponsDv .weapons-items .imgbox {
+	border-style: solid;
+	border-width: 3px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	padding: 0 10px;
+	width: 80px;
+	position: relative;
+	height: 70px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-content .weaponsDv .weapons-items .contentDv {
+	padding-left: 15px;
+}
+.main-content .weaponsDv .weapons-items .contentDv ul.lists {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+	column-count: 2;
+}
+.main-content .weaponsDv .weapons-items .contentDv ul.lists li {
+	font-size: 8px;
+	font-family: "Poppins";
+}
+.main-content .weaponsDv .weapons-Slider button.slick-prev::before {
+	display: none;
+}
+.main-content .weaponsDv .weapons-Slider button.slick-next::before {
+	content: url("../img/arrow-right.png");
+	opacity: 1;
+	position: absolute;
+	right: 40px;
+	top: 50px;
+}
+/* Weapons Css Start Here */
+
+/* Players Info Css Start Here */
+.main-content .spacer {
+	margin-top: 30px;
+}
+.main-content .all-about-players {
+	background-image: linear-gradient(
+		to right,
+		#181718,
+		#101011,
+		#1a191a,
+		#232323,
+		#171617
+	);
+	padding: 30px 20px;
+	margin: -10px 0.3px -10px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	height: 536px;
+	overflow-y: auto;
+}
+.main-content .all-about-players .title h3 {
+	color: #e3bf4b;
+	padding-bottom: 20px;
+}
+.main-content .all-about-players .players-Name .infoBox .info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0 0;
+	border-bottom: 1px solid #313131;
+	color: #e3bf4b;
+}
+.main-content .all-about-players .equipments {
+	padding-top: 20px;
+}
+.main-content .all-about-players .title h4 {
+	text-align: center;
+	padding-bottom: 20px;
+	color: #e3bf4b;
+}
+.main-content .all-about-players .equipments .info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0 0;
+	border-bottom: 1px solid #313131;
+	color: #e3bf4b;
+}
+.main-content .all-about-players .property h4 {
+	font-size: 10px;
+}
+.main-content .all-about-players .armored-stats {
+	padding-top: 20px;
+}
+.main-content .all-about-players .armored-stats .info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0 0;
+	border-bottom: 1px solid #313131;
+	color: #e3bf4b;
+}
+.main-content .all-about-players .actionsBtn .button-group button.btn {
+	font-size: 8px;
+	color: #fff;
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	padding: 15px 0px;
+	width: 110px;
+	font-family: "aniron";
+	border: 2px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	cursor: pointer;
+	margin: 10px 0;
+}
+.main-content .all-about-players .actionsBtn .exportBtn button.btn {
+	background: transparent;
+	color: #e3bf4b;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.main-content .all-about-players .actionsBtn .exportBtn {
+	text-align: center;
+}
+/* Players Info Css End Here */
+
+/* Inventory Css Start Here */
+.main-content .inventroy-Box {
+	background-image: linear-gradient(
+		to right,
+		#181718,
+		#101011,
+		#1a191a,
+		#232323,
+		#171617
+	);
+	padding: 60px 20px 30px;
+	margin: -10px 0px -10px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	height: 536px;
+	overflow-x: auto;
+}
+.main-content .inventroy-Box .inventories {
+	padding-top: 40px;
+}
+.main-content .inventroy-Box .beforeImg {
+	position: absolute;
+	right: -10px;
+	z-index: 1;
+	top: 20px;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links li a {
+	font-size: 10px;
+	color: #e3bf4b;
+	font-family: "aniron";
+	opacity: 0.6;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links li a.active {
+	opacity: 1;
+}
+.main-content .inventroy-Box .title {
+	padding-bottom: 20px;
+}
+.main-content .inventroy-Box .search-Box form .form-group input {
+	background-image: url(../img/searchicon.png) !important;
+	font-size: 9px;
+	background-repeat: no-repeat !important;
+	background-position: left center !important;
+	background-position-x: 5px !important;
+	font-family: "Poppins";
+	color: #fff;
+	border-radius: 0;
+	background: transparent;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 2px;
+	padding-left: 25px;
+}
+.main-content .inventroy-Box .search-Box form .form-group input::placeholder {
+	color: #ffffff7d;
+}
+.main-content .inventroy-Box .inventory-itemBox {
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	height: 70px;
+	width: 100%;
+	border-image-slice: 1;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+}
+.main-content .inventroy-Box .inventory-itemBox .count {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	font-family: "Poppins";
+	font-weight: 800;
+	border-radius: 7px 0 0 0;
+	height: 20px;
+	line-height: 20px;
+	width: 18px;
+}
+.main-content .inventroy-Box .inventory-itemBox .count span {
+	color: #000;
+	font-size: 7px;
+	font-family: "Poppins";
+	font-weight: 800;
+}
+.main-content .inventroy-Box .inventory-itemBox .count span.large {
+	font-size: 12px;
+}
+.main-content .inventroy-Box .nextBtn {
+	text-align: right;
+}
+/* Inventory Css End Here */
+
+/* Legend Div Css Start Here */
+.main-content .legendDv-withBorder {
+	position: relative;
+	margin-top: 5px;
+}
+.main-content .forTop-border figure img {
+	width: 100%;
+	height: 31px;
+}
+.main-content .forBottom-border figure img {
+	width: 100%;
+	height: 31px;
+}
+.main-content .LegendDv {
+	background-image: linear-gradient(
+		to right,
+		#181718,
+		#101011,
+		#1a191a,
+		#232323,
+		#171617
+	);
+	padding: 20px 10px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	margin: -10px 0.3px -10px;
+}
+.main-content .LegendDv .title h4 {
+	color: #e3bf4b;
+	text-align: center;
+}
+.main-content .LegendDv .Legend-Slider {
+	padding-top: 30px;
+}
+.main-content .LegendDv .legends-items {
+	display: flex !important;
+	align-items: center;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.main-content .LegendDv .legends-items .imgbox {
+	border-style: solid;
+	border-width: 3px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	padding: 0 10px;
+	width: 80px;
+	position: relative;
+	height: 70px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-content .LegendDv .legends-items .contentDv {
+	padding-left: 10px;
+}
+.main-content .LegendDv .legends-items .contentDv ul.lists {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+	column-count: 2;
+}
+.main-content .LegendDv .legends-items .contentDv ul.lists li {
+	font-size: 8px;
+	font-family: "Poppins";
+}
+.main-content .LegendDv .Legend-Slider button.slick-prev::before {
+	display: none;
+}
+.main-content .LegendDv .Legend-Slider button.slick-next::before {
+	content: url("../img/arrow-right.png");
+	opacity: 1;
+	position: absolute;
+	right: 40px;
+	top: 50px;
+}
+/* Legend Div Css End Here */
+
+/* Misc Div Css Start Here */
+.main-content .Misc-withBorder {
+	position: relative;
+	margin-top: 5px;
+}
+.main-content .forTop-border figure img {
+	width: 100%;
+	height: 31px;
+}
+.main-content .forBottom-border figure img {
+	width: 100%;
+	height: 31px;
+}
+.main-content .MiscDv {
+	background-image: linear-gradient(
+		to right,
+		#181718,
+		#101011,
+		#1a191a,
+		#232323,
+		#171617
+	);
+	padding: 20px 10px;
+	border-left-width: 4px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	border-left-style: solid;
+	border-right-width: 4px;
+	border-right-style: solid;
+	margin: -10px 0.3px -10px;
+}
+.main-content .MiscDv .title h4 {
+	color: #e3bf4b;
+	text-align: center;
+}
+.main-content .MiscDv .Misc-Slider {
+	padding-top: 30px;
+}
+.main-content .MiscDv .Misc-items {
+	display: flex !important;
+	align-items: center;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.main-content .MiscDv .Misc-items .imgbox {
+	border-style: solid;
+	border-width: 3px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+	padding: 0 10px;
+	width: 80px;
+	position: relative;
+	height: 70px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main-content .MiscDv .Misc-items .contentDv {
+	padding-left: 10px;
+}
+.main-content .MiscDv .Misc-items .contentDv ul.lists {
+	padding: 0;
+	margin-bottom: 0;
+	list-style: none;
+	column-count: 2;
+}
+.main-content .MiscDv .Misc-items .contentDv ul.lists li {
+	font-size: 8px;
+	font-family: "Poppins";
+}
+.main-content .MiscDv .Misc-Slider button.slick-prev::before {
+	display: none;
+}
+.main-content .MiscDv .Misc-Slider button.slick-next::before {
+	content: url("../img/arrow-right.png");
+	opacity: 1;
+	position: absolute;
+	right: 40px;
+	top: 50px;
+}
+/* Misc Div Css End Here */

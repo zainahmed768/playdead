@@ -1,0 +1,191 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+button {
+  font-size: 11px;
+  font-family: "aniron";
+}
+h3 {
+  font-size: 16px;
+  font-family: "aniron";
+}
+h4 {
+  font-size: 12px;
+  font-family: "aniron";
+}
+h5 {
+  font-size: 8px;
+  font-family: "aniron";
+}
+figure {
+  margin-bottom: 0;
+}
+.frame-wrapper {
+  background-image: url("../img/inventorybg.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 5rem 2rem 5rem;
+  margin: 4.5rem 2rem;
+  position: relative;
+}
+.frame-wrapper .border-left img {
+  position: absolute;
+  left: -22px;
+  top: -39px;
+}
+.frame-wrapper .border-right img {
+  position: absolute;
+  right: -22px;
+  top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -70px;
+  text-align: center;
+  margin: 0px auto;
+}
+/* Box One Css Start Here */
+/* Inventory Css Start Here */
+.invent-sec{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.inventory-selection .col-1 {
+    padding: 0px 9px;
+}
+.main-content .inventroy-Box .beforeImg {
+  position: absolute;
+  right: -10px;
+  z-index: 1;
+  top: 20px;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links li a {
+  font-size: 12px;
+  line-height: 28px;
+  color: #e3bf4b;
+  font-family: "aniron";
+  opacity: 0.6;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links li a.active {
+  opacity: 1;
+}
+.main-content .inventroy-Box .title {
+  padding-bottom: 20px;
+}
+.main-content .inventroy-Box .inventories ul.inventory-links li a {
+    padding: 5px;
+}
+.nav-pills .nav-link.active{
+    background: transparent !important;
+}
+.main-content .inventroy-Box .search-Box form .form-group{
+  background-image: linear-gradient(to left bottom, #000002, #101011, #1a191a, #232323, #2c2c2c);
+}
+.main-content .inventroy-Box .search-Box form .form-group input {
+  background-image: url(../img/searchicon.png) !important;
+  font-size: 9px;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-position-x: 5px !important;
+  font-family: "Poppins";
+  color: #fff;
+  border-radius: 0;
+  background: transparent;
+  border-image-source: linear-gradient(
+    to right,
+    #b88425,
+    #c5973f,
+    #d2a957,
+    #e0bc6f,
+    #edcf88,
+    #efd28b,
+    #f1d58f,
+    #f3d892,
+    #eacb80,
+    #e1bf6f,
+    #d9b25d,
+    #d0a64c
+  ) !important;
+  border-image-slice: 1;
+  border-width: 2px;
+  padding-left: 25px;
+}
+.main-content .inventroy-Box .search-Box form .form-group input::placeholder {
+  color: #fff;
+}
+.main-content .inventroy-Box .inventory-itemBox {
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-image-source: linear-gradient(
+    to right,
+    #b88425,
+    #c5973f,
+    #d2a957,
+    #e0bc6f,
+    #edcf88,
+    #efd28b,
+    #f1d58f,
+    #f3d892,
+    #eacb80,
+    #e1bf6f,
+    #d9b25d,
+    #d0a64c
+  ) !important;
+  height: 70px;
+  width: 100%;
+  border-image-slice: 1;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.main-content .inventroy-Box .inventory-itemBox .count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    to right,
+    #b88425,
+    #c5973f,
+    #d2a957,
+    #e0bc6f,
+    #edcf88,
+    #efd28b,
+    #f1d58f,
+    #f3d892,
+    #eacb80,
+    #e1bf6f,
+    #d9b25d,
+    #d0a64c
+  ) !important;
+  font-family: "Poppins";
+  font-weight: 800;
+  border-radius: 7px 0 0 0;
+  height: 20px;
+  line-height: 20px;
+  width: 18px;
+}
+.main-content .inventroy-Box .inventory-itemBox .count span {
+  color: #000;
+  font-size: 7px;
+  font-family: "Poppins";
+  font-weight: 800;
+}
+.main-content .inventroy-Box .inventory-itemBox .count span.large {
+  font-size: 12px;
+}
+.main-content .inventroy-Box .nextBtn {
+  text-align: right;
+}
+/* Inventory Css End Here */

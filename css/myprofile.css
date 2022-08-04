@@ -1,0 +1,384 @@
+.frame-wrapper .nav-menu ul.menus {
+    padding-top: 25px;
+}
+.frame-wrapper {
+    background-image: url('../img/profileback.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* Profile Css Start Here */
+.ProfileContent-Dv {
+    padding: 40px 0 100px;
+}
+.ProfileContent-Dv .classesDv ul.classes-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ProfileContent-Dv .classesDv {
+    padding-left: 40px;
+}
+.ProfileContent-Dv .classesDv  .head {
+    padding-bottom: 20px;
+}
+.ProfileContent-Dv .classesDv ul.classes-list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+.ProfileContent-Dv .classesDv ul.classes-list li .img-box figure img {
+    width: 100%;
+}
+.ProfileContent-Dv .classesDv ul.classes-list li .classText {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.ProfileContent-Dv .classesDv .actionLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ProfileContent-Dv .classesDv .actionLinks a {
+    color: #E3BF4B;
+    font-family: 'aniron';
+    font-size: 11px;
+}
+.ProfileContent-Dv .classesDv .actionLinks .spacer {
+    background: #FFE799;
+    width: 2px;
+    height: 10px;
+}
+/* Warrior Dv Css Start Here */
+.ProfileContent-Dv .Warrior-Dv .head {
+    padding-bottom: 10px;
+}
+.ProfileContent-Dv .Warrior-Dv .characterKills {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.ProfileContent-Dv .Warrior-Dv .characterKills .property h4 {
+    color: #E3BF4B;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.ProfileContent-Dv .Warrior-Dv .characterKills  .value h3 {
+    color: #fff;
+}
+.ProfileContent-Dv .Warrior-Dv  p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+}
+.ProfileContent-Dv .Warrior-Dv ul.awardsList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.ProfileContent-Dv .Warrior-Dv ul.awardsList li {
+    display: inline-block;
+}
+.ProfileContent-Dv .Warrior-Dv ul.awardsList li .imgBox-award {
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 50px;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.ProfileContent-Dv .vertical-line {
+    height: 70%;
+    width: 2px;
+    background: #E3BF4B;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    top: 8rem;
+}
+/* Warrior Dv Css End Here */
+
+/* Character Css Start Here */
+.ProfileContent-Dv .CharacterDv {
+    padding-top: 40px;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li.playersCharacter {
+    width: 100%;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .player-img {
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 90px;
+    position: relative;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f3130;
+    margin-right: 10px;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li  .content .playerName h5 {
+    color: #E3BF4B;
+    margin-bottom: 0;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .playerName span {
+    font-size: 10px;
+    color: #fff;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .playerName {
+    margin-bottom: 5px;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .playerLevel h5 {
+    color: #E3BF4B;
+    margin-bottom: 5px;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .playerLevel span {
+    font-size: 10px;
+    color: #fff;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .Fornew {
+    text-align: center;
+}
+.ProfileContent-Dv .CharacterDv ul.AboutPlayers li .content .Fornew h5 {
+    color: #E3BF4B;
+    line-height: 13px;
+}
+/* Character Css End Here */
+
+/* Guilds Css Start Here */
+.ProfileContent-Dv .GuildsDv .head {
+    padding-bottom: 20px;
+}
+.ProfileContent-Dv .GuildsDv .head h3 {
+    font-size: 19px;
+    color: #E3BF4B;
+}
+.ProfileContent-Dv .GuildsDv .discoo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.ProfileContent-Dv .GuildsDv .discoo .imgBox {
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 130px;
+    position: relative;
+    height: 90px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f3130;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv {
+    padding-left: 20px;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv h3.name {
+    color: #E3BF4B;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv span {
+    color: #fff;
+    font-size: 11px;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv ul.about {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv ul.about li {
+    font-size: 8px;
+    color: #E3BF4B;
+    list-style: none;
+    margin-right: 15px;
+}
+.ProfileContent-Dv .GuildsDv .discoo .contentDv ul.about li ruby {
+    color: #fff;
+}
+/* Guilds Css End Here */
+
+/* Carrier Kill Css Start Here */
+.ProfileContent-Dv .CareerDv {
+    margin-top: -4rem;
+}
+.ProfileContent-Dv .CareerDv .career-kills {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.ProfileContent-Dv .CareerDv .career-kills h4 {
+    color: #E3BF4B;
+    font-size: 14px;
+    padding-right: 20px;
+}
+.ProfileContent-Dv .CareerDv .career-kills h3 {
+    color: #fff;
+}
+.ProfileContent-Dv .CareerDv  .balance {
+    padding-bottom: 20px;
+}
+.ProfileContent-Dv .CareerDv .balance h3 {
+    font-size: 19px;
+    color: #E3BF4B;
+    padding-bottom: 20px;
+}
+.ProfileContent-Dv .CareerDv .balance  .coins .coinflex {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.ProfileContent-Dv .CareerDv .balance .coins .coinflex h4.txt {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.ProfileContent-Dv .CareerDv .balance .coins .coinflex h4 {
+    font-size: 14px;
+    color: #E3BF4B;
+}
+.ProfileContent-Dv .CareerDv .Awardss h3 {
+    font-size: 18px;
+    color: #E3BF4B;
+    padding-bottom: 20px;
+}
+.ProfileContent-Dv .CareerDv .Awardss ul.awardsBox {
+    padding: 0;
+    margin: 0;
+}
+.ProfileContent-Dv .CareerDv .Awardss ul.awardsBox li {
+    list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 60px;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#000002,#101011,#1a191a,#232323,#2c2c2c);display: inline-block;
+}
+.ProfileContent-Dv .CareerDv  .For-weapons {
+    padding-top: 15px;
+}
+.ProfileContent-Dv .CareerDv .For-weapons h3 {
+    color: #E3BF4B;
+    padding-bottom: 15px;
+}
+.ProfileContent-Dv .CareerDv .For-weapons ul.weaponList {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.ProfileContent-Dv .CareerDv .For-weapons ul.weaponList li {
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 60px;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#000002,#101011,#1a191a,#232323,#2c2c2c);
+    margin-right: 5px;
+}
+.ProfileContent-Dv .CareerDv .For-weapons ul.weaponList li .checked {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+.ProfileContent-Dv .CareerDv .PetsDv {
+    padding-top: 30px;
+}
+.ProfileContent-Dv .CareerDv .PetsDv h3 {
+    color: #E3BF4B;
+    padding-bottom: 10px;
+}
+.ProfileContent-Dv .CareerDv .PetsDv ul.petsList {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+}
+.ProfileContent-Dv .CareerDv .PetsDv ul.petsList li .imgBox {
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 60px;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#000002,#101011,#1a191a,#232323,#2c2c2c);
+    margin-right: 5px;
+}
+.ProfileContent-Dv .CareerDv .PetsDv ul.petsList li .imgBox figure img {
+    width: 50px;
+    height: 50px;
+}
+/* Carrier Kill Css End Here */
+
+/* Profile Css End Here */

@@ -1,0 +1,270 @@
+.frame-wrapper {
+	background-image: url("../img/inventorybg.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 3rem 2rem;
+	margin: 4.5rem 2rem;
+	position: relative;
+}
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+}
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+}
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+}
+.character-wrapper.active {
+	border: 3px solid #cfa550;
+}
+.character-wrapper {
+	position: relative;
+	border-radius: 9px;
+	margin-bottom: 10px;
+}
+.profile-creation p {
+	color: #fffae2;
+	font-size: 14px;
+}
+.profile {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mycharacter-sec {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.mycharacter-sec .bounty-img-wrapper {
+	background-image: url("../img/bounty-bg.png");
+	background-size: 100% 100%;
+	padding: 52px 20px;
+}
+.mycharacter-sec .bount-heading-wrapper h5 {
+	text-align: center;
+	color: #e3bf4b;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.mycharacter-sec .bount-heading-wrapper {
+	padding: 25px 0px;
+}
+.mycharacter-sec .bounty-img-wrapper .bount-img img {
+	height: 369px;
+	width: 100%;
+	object-fit: cover;
+}
+.mycharacter-sec .bounty-hunter-wrapper {
+	background-image: url("../img/bounty-bg.png");
+	background-size: 100% 100%;
+	padding: 46px 20px;
+}
+.bounty-hunter-wrapper .bounty-heading-wrapper h5 {
+	text-align: center;
+	color: #e3bf4b;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.bounty-hunter-wrapper .hunter-stats-wrapper h5 {
+	text-align: center;
+	color: #e3bf4b;
+	font-size: 11px;
+	text-transform: uppercase;
+	margin: 0px;
+}
+.bounty-hunter-wrapper .hunter-list-wrappper {
+	padding: 13px 0px;
+}
+.bounty-hunter-wrapper .hunter-list-wrappper ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.bounty-hunter-wrapper .hunter-list-wrappper ul li {
+	display: flex;
+	justify-content: space-between;
+	padding: 7px 0px;
+	border-bottom: 1px solid #313131;
+	align-items: center;
+}
+.bounty-hunter-wrapper .hunter-list-wrappper ul li span.property {
+	color: #e3bf4b;
+	font-family: "Aniron";
+	font-size: 8px;
+}
+.bounty-hunter-wrapper .hunter-list-wrappper ul li span.value {
+	color: #bfbfbf;
+	font-family: "Aniron";
+	font-weight: 700;
+	font-size: 8px;
+}
+.mycharacter-sec .bounty-hunter-wrapper .hunter-btn-wrapper .btn {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: left;
+	padding: 9px 27px;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 7px;
+	border: 1px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 1px;
+	transition: all 0.3s ease-in-out;
+}
+.mycharacter-sec .bounty-hunter-wrapper .hunter-btn-wrapper {
+	padding: 11px 0px;
+}
+.mycharacter-sec .weapons-wrapper {
+	background-image: url("../img/bounty-bg.png");
+	background-size: 100% 100%;
+	padding: 46px 20px;
+}
+.mycharacter-sec .weapons-wrapper ul {
+	padding: 0px;
+	list-style: none;
+	margin: 0;
+}
+.mycharacter-sec .single-weapon-wrapper .weapon-heading-wrapper h6 {
+	font-size: 12px;
+	font-weight: 700;
+	font-family: "Aniron";
+	color: #e3bf4b;
+}
+.mycharacter-sec .single-weapon-wrapper .weapon-heading-wrapper {
+	padding: 16px 0px;
+}
+.mycharacter-sec .weapons-wrapper ul li {
+	display: inline-block;
+	width: 32%;
+	text-align: center;
+}
+.bounty-sec .bounty-hunter-wrapper {
+	background-image: url("../img/crs-bg.png");
+	background-size: 100% 100%;
+	padding: 46px 20px;
+}
+.bounty-sec .export-heading-wrapper h4 {
+	font-family: "Aniron";
+	color: #e3bf4b;
+	font-size: 18px;
+}
+.bounty-sec .export-heading-wrapper {
+	padding-bottom: 54px;
+}
+.bounty-sec .bounty-hunter-wrapper {
+	margin-bottom: 48px;
+}
+.bounty-sec .notes-wrapper {
+	background-image: url("../img/bounty-bg.png");
+	background-size: 100% 100%;
+	padding: 46px 20px;
+	height: 610px;
+}
+.bounty-sec .notes-wrapper .notes-heading-wrapper h5 {
+	font-family: "Aniron";
+	color: #e3bf4b;
+	font-size: 18px;
+	text-align: center;
+}
+.bounty-sec .notes-content-wrapper p {
+	font-family: "Aniron";
+	color: #e3bf4b;
+	font-size: 10px;
+}
+.bounty-sec .notes-content-wrapper ul {
+	list-style: none;
+	/* margin: 0px; */
+	padding: 0px;
+}
+.bounty-sec .notes-content-wrapper ul li {
+	font-family: "Aniron";
+	color: #e3bf4b;
+	font-size: 10px;
+}
+.bounty-sec .notes-wrapper .notes-content-wrapper {
+	margin-top: 27px;
+}
+.bounty-sec .wep-wrapper {
+	display: flex;
+	align-items: center;
+	margin: 25px 0px;
+}
+.bounty-sec .wep-wrapper .wep-content-wrapper ul {
+	column-count: 2;
+	list-style: none;
+	margin: 0px;
+}
+.bounty-sec .wep-wrapper .wep-content-wrapper ul li {
+	font-family: "Poppins";
+	color: #fff;
+	font-size: 10px;
+}
+.wep-img-wrapper {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	padding: 16px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 2px;
+}
+.wep-img-wrapper img {
+	height: 41px;
+	width: 37px;
+	object-fit: contain;
+}

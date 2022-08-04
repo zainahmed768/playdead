@@ -1,0 +1,172 @@
+/* Frame Css Start Here */
+.frame-wrapper .nav-menu ul.menus {
+    padding-top: 25px;
+}
+.frame-wrapper {
+    background-image: url('../img/inventorybg.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+/* Frame Css End Here */
+
+/* Inventroy Detail Css Start Here */
+.items-creation {
+    padding: 30px 0 100px;
+}
+.items-creation .items-status {
+    background-image: linear-gradient( to right, #181718, #101011, #1a191a, #232323, #171617);
+    padding: 30px 40px 90px;
+    margin: -10px 0.3px -10px;
+    border-left-width: 4px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    border-left-style: solid;
+    border-right-width: 4px;
+    border-right-style: solid;
+}
+.items-creation .items-status .head h3.title {
+    color: #E3BF4B;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.items-creation .items-status ul.items-list {
+    padding: 0;
+    margin: 0;
+}
+.items-creation .items-status ul.items-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #313131;
+    padding: 8px 0 0px;
+}
+.items-creation .items-status ul.items-list li .rates {
+    display: flex;
+    align-items: center;
+}
+.items-creation .items-status ul.items-list li .rates span {
+    display: flex;
+    align-items: center;
+}
+.items-creation .items-status ul.items-list li .rates .icons i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #e3bf4b;
+}
+.items-creation .items-status ul.items-list li .rates .icons {
+    padding-left: 10px;
+}
+.items-creation .items-status ul.items-list li .rates .items-back {
+    list-style: none;
+    width: 45px;
+    position: relative;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right,#000002,#101011,#1a191a,#232323,#2c2c2c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+    border-width: 1px;
+    padding: 0px 0 1px;
+    margin-left: 15px;
+}
+.items-creation .items-status ul.items-list li h4 {
+    color: #e3bf4b;
+}
+.items-creation .items-status ul.items-list li  span {
+    color: #fff;
+    font-family: 'aniron';
+}
+.items-creation .heading {
+    padding-bottom: 20px;
+}
+.items-creation .create-items .heading h1.title {
+    color: #E3BF4B;
+    font-family: 'aniron';
+    font-size: 26px;
+}
+.items-creation .create-items .button-group .btn {
+    padding: 13px 90px;
+}
+.items-creation .create-items {
+    width: 65%;
+}
+.items-creation .create-items .form-group .form-control {
+    border: 1px solid #7070708c;
+    background: transparent;
+    border-radius: 0;
+    color: #A5A5A4;
+    font-family: 'Poppins';
+    padding: 15px  15px;
+}
+.items-creation .create-items .form-group .form-control::placeholder {
+    color: #A5A5A4;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.items-creation .create-items .form-group input.form-control {
+    border: 0;
+    border-bottom: 1px solid #7070708c;
+    padding-left: 0;
+    width: 65%;
+}
+.items-creation .create-items .player-img {
+    width: 140px;
+    position: relative;
+    height: 130px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1E1E1E;
+    margin-right: 10px;
+    border: 1px solid #70707094;
+}
+.items-creation .create-items .form-group textarea {
+    height: 150px;
+    resize: none;
+}
+.items-creation .create-items button.btn {
+    background-image: linear-gradient( to right, #2c2c2c, #1f1f20, #030305, #040406, #040406 );
+    background-repeat: no-repeat;
+    color: #FFC300;
+    font-family: "aniron";
+    font-size: 15px;
+    padding: 13px 50px;
+    border: 3px solid;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+    border-width: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Inventroy Detail Css Start Here */

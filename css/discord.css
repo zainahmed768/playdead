@@ -1,0 +1,252 @@
+.btn {
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 0px;
+    color: #e3bf4b;
+    font-family: "Aniron";
+    font-size: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(
+      to right,
+      #b88425,
+      #c5973f,
+      #d2a957,
+      #e0bc6f,
+      #edcf88,
+      #efd28b,
+      #f1d58f,
+      #f3d892,
+      #eacb80,
+      #e1bf6f,
+      #d9b25d,
+      #d0a64c
+    ) !important;
+    border-image-slice: 1;
+    background-image: linear-gradient(
+      to right bottom,
+      #000002,
+      #101011,
+      #1a191a,
+      #232323,
+      #2c2c2c
+    ) !important;
+  }
+figure {
+    margin-bottom: 0;
+}
+.frame-wrapper {
+    background-image: url('../img/character-bg.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 5rem 2rem 5rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+/* Inventory Css Start Here */
+.discord-sec .inventroy-Box {
+    background-image: linear-gradient( to right, #181718, #101011, #1a191a, #232323, #171617);
+    padding: 60px 20px 30px;
+    margin: -10px 0px -10px;
+    border-width: 4px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    border-style: solid;
+    overflow-x: auto;
+}
+.discord-sec .inventroy-Box .inventories {
+    padding-top: 40px;
+}
+.discord-sec .inventroy-Box .beforeImg {
+    position: absolute;
+    right: -10px;
+    z-index: 1;
+    top: 20px;
+}
+.discord-sec .inventroy-Box .inventories ul.inventory-links {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.discord-sec .inventroy-Box .inventories ul.inventory-links li a {
+    font-size: 10px;
+    color: #E3BF4B;
+    font-family: 'aniron';
+    opacity: 0.6;
+}
+.discord-sec .inventroy-Box .inventories ul.inventory-links li a.active {
+    opacity: 1;
+}
+.discord-sec .inventroy-Box .title {
+    padding-bottom: 20px;
+}
+.discord-sec .inventroy-Box .search-Box form .form-group input {
+    background-image: url(../img/searchicon.png) !important;
+    font-size: 9px;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-position-x: 5px !important;
+    font-family: 'Poppins';
+    color: #fff;
+    border-radius: 0;
+    background: transparent;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+    border-width: 2px;
+    padding-left: 25px;
+}
+.discord-sec .inventroy-Box .search-Box form .form-group input::placeholder {
+    color: #ffffff7d;
+}
+.discord-sec {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.discord-sec .inventroy-Box .inventory-itemBox {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    height: 70px;
+    width: 100%;
+    border-image-slice: 1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.discord-sec .inventroy-Box .inventory-itemBox .count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    font-family: 'Poppins';
+    font-weight: 800;
+    border-radius: 7px 0 0 0;
+    height: 20px;
+    line-height: 20px;
+    width: 18px;
+}
+.discord-sec .inventroy-Box .inventory-itemBox .count span {
+    color: #000;
+    font-size: 7px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+.discord-sec .inventroy-Box .inventory-itemBox .count span.large {
+    font-size: 12px;
+}
+.discord-sec .inventroy-Box  .nextBtn {
+    text-align: right;
+}
+/* Inventory Css End Here */
+.discord-img-wrapper img {
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+}
+.discord-content-wrapper h4 {
+    color: #E3BF4B;
+    font-size: 20px;
+}
+.discord-content-wrapper p {
+    color: #fff;
+    font-size: 13px;
+}
+.leader-and-co-leader h5 {
+    font-size: 16px;
+    font-family: 'aniron';
+    color: #fff;
+}
+.leader-and-co-leader h5 span {
+    font-size: 16px;
+    font-family: 'aniron';
+    color: #E3BF4B;
+    margin-left: 20px;
+}
+ul#achievements-list {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 30px;
+}
+.leader-and-co-leader {
+    margin-bottom: 31px;
+}
+ul#achievements-list li {
+    width: 21%;
+    margin: 0px auto;
+}
+ul#achievements-list .achi-img {
+    padding: 10px;
+    height: 73.5px;
+    background-image: linear-gradient(to right bottom, #000002, #101011, #1a191a, #232323, #2c2c2c);
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient( to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c ) !important;
+    border-image-slice: 1;
+}
+ul#achievements-list h6 {
+    color: #E3BF4B;
+    font-family: 'aniron';
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+.members-wrapper table {
+    width: 100%;
+    margin: 0px;
+}
+.members-and-request-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.members-wrapper table tr {
+    text-align: center;
+}
+table tr.row1 th {
+    text-align: center;
+}
+.members-wrapper table tr.row1 th {
+    padding: 10px;
+    text-align: center;
+    color: #E3BF4B;
+    font-family: 'aniron';
+    font-size: 10px;
+}
+table tr.row2 td {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    padding: 21px 11px;
+}
+.members-wrapper table tr.row2 {
+    border-bottom: 1px solid #C1C1C1;
+}
+.members-and-request-wrapper p {
+    margin-bottom: 0;
+    color: #E3BF4B;
+    font-family: 'aniron';
+}

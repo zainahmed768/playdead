@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/aniron?styles=10085');
+ /* / Fonts  / */
+@font-face {
+    font-family: 'aniron';
+    src: url('../fonts/aniron.ttf');
+}
+ /* / Fonts  / */
+ /* / global css🌍  / */
+*{
+    font-family: 'Poppins';
+}
+
+button{
+    outline: 0px !important;
+    cursor: pointer !important;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+button {
+    font-size: 11px;
+    font-family: 'aniron';
+}
+h3 {
+    font-size: 16px;
+    font-family: 'aniron';
+}
+h4 {
+    font-size: 12px;
+    font-family: 'aniron';
+}
+h5 {
+    font-size: 8px;
+    font-family: 'aniron';
+}
+figure {
+    margin-bottom: 0;
+}
+a{
+    color: #E3BF4B;
+    cursor: pointer !important;
+}
+a:hover{
+    text-decoration: none;
+}
+.active-wr{
+    border: 3px solid #cfa550;
+}
+a.btn-theme:hover{
+    background-position: right;
+}
+/* / frame css / */
+body {
+    background-color: #000;
+}
+.frame-wrapper {
+    background-image: url(../img/frame2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    padding: 4rem 1.7rem 3.4rem;
+}
+ /* / frame css  / */
+ /* / global css  / */
+
+ /* / Logo Css Start Here  / */
+ .TopCenter .logoDv {
+    max-width: 25%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    top: -1.5rem;
+}
+a.btn-theme{
+    background-size: 134% !important;
+    background-position: left !important;
+    transition: all 0.3s ease-in;
+}
+.Menus .dropdown-menu {
+    background-image: radial-gradient(circle, #2c2c2c, #262626, #212121, #1b1b1b, #161616);
+    border-radius: 0px !important;
+}
+.Menus a.dropdown-item {
+    color: #e3bf4b;
+    font-family: 'aniron';
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+}
+.Menus a.dropdown-item:hover {
+    background: #e3bf4b;
+    color: #161616;
+}
+a.btn-theme:hover{
+    background-position: right !important;
+}
+.TopCenter .logoDv figure img {
+    width: 100%;
+}
+ /* / Logo Css Start Here / */
+ .character-wrapper img.char-img {
+    filter: brightness(0.5);
+    transition: all 0.3s ease-in;
+  }
+  .character-wrapper img.char-img:hover{
+    filter: brightness(0.9);
+  }
+ /* / Menu Css Start Here  / */
+ .frame-wrapper .nav-menu ul.menus {
+    padding: 0;
+    margin: 0;
+    padding-right: 60px;
+}
+.frame-wrapper .nav-menu ul.menus li.menu-items {
+    display: inline-block;
+}
+.frame-wrapper .nav-menu ul.menus li.menu-items a.menu-links {
+    color: #E3BF4B;
+    font-size: 12px;
+    font-family: 'aniron';
+    text-decoration: none;
+    transition: all 0.6s linear;
+    border: 1px solid transparent;
+    padding: 6px 3px;
+}
+.frame-wrapper .nav-menu ul.menus li.menu-items a.menu-links:hover {
+    color: #f1c536;
+    padding: 6px 9px;
+    border: 1px solid #f1c536;
+    background-image: radial-gradient(circle, #2c2c2c, #262626, #212121, #1b1b1b, #161616);
+}
+.fram-sec .golden-color {
+    color: #FFE698;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+/* / Menu Css End Here / */
+.character-list{
+    margin-bottom: 30px;
+}
+/* navbar hover effect starts here */
+
+
+/* navbar hover effect ends here */
+ /* / footer css start here  / */
+footer{
+    padding: 20px;
+}
+.footer-bg {
+    background: url(../img/footer.png);
+    padding: 82px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+footer ul#footer-menu1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+footer ul#footer-menu1 li {
+    margin: 0px 25px;
+}
+footer ul#footer-menu1 li a {
+    color: #FFE698;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+footer .footer-des{
+    color: #C9C9C9;
+    font-family: 'montserrat';
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width:1280px){
+    .footer-bg {
+        padding: 70px 0px;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width:990px){
+    footer ul#footer-menu1 li {
+        margin: 0px 9px;
+    }
+}
+@media (max-width:770px){
+    .footer-bg {
+        padding: 43px 0px;
+        background-size: 100% 100%;
+    }
+    footer .footer-des {
+        font-size: 13px;
+    }
+    footer ul#footer-menu1 li a {
+        font-size: 14px;
+    }
+}
+@media (max-width:580px){
+    .footer-bg {
+        padding: 30px 0px 25px 0px;
+        background-size: 100% 100%;
+    }
+}
+@media (max-width:500px){
+    footer ul#footer-menu1 li {
+        margin: 0px;
+    }
+    footer ul#footer-menu1 li a {
+        font-size: 13px;
+    }
+}
+@media (max-width:479px){
+    .footer-bg {
+       background-image: url('../img/footer-color.png');
+       background-size: cover;
+       background-position: center center;
+       border:10px solid #C08F34;
+       border-radius: 10px;
+    }
+    footer .footer-des{
+        text-align: left;
+    }
+    footer ul#footer-menu1{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer ul#footer-menu1 li {
+        margin: 0px;
+    }
+
+}
+
+ /* / footer css start here  / */

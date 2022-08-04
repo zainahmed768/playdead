@@ -1,0 +1,91 @@
+.btn {
+    padding: 10px 20px;
+    margin: 0px 10px;
+    border-radius: 0px;
+    color: #e3bf4b;
+    font-family: "Aniron";
+    font-size: 12px;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(
+      to right,
+      #b88425,
+      #c5973f,
+      #d2a957,
+      #e0bc6f,
+      #edcf88,
+      #efd28b,
+      #f1d58f,
+      #f3d892,
+      #eacb80,
+      #e1bf6f,
+      #d9b25d,
+      #d0a64c
+    ) !important;
+    border-image-slice: 1;
+    background-image: linear-gradient(
+      to right bottom,
+      #000002,
+      #101011,
+      #1a191a,
+      #232323,
+      #2c2c2c
+    ) !important;
+  }
+figure {
+  margin-bottom: 0;
+}
+.frame-wrapper {
+  background-image: url("../img/profileback.png") !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  padding: 5rem 2rem 5rem;
+  margin: 4.5rem 2rem;
+  position: relative;
+}
+.frame-wrapper .border-left img {
+  position: absolute;
+  left: -22px;
+  top: -39px;
+}
+.frame-wrapper .border-right img {
+  position: absolute;
+  right: -22px;
+  top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -70px;
+  text-align: center;
+  margin: 0px auto;
+}
+/* Box One Css Start Here */
+/* herosandvillans section css starts here */
+.herosandvillans{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.herosandvillans h4{
+    font-family: 'Aniron';
+    font-size: 24px;
+    color: #E3BF4B;
+}
+.herosandvillans .bor {
+    background-image: radial-gradient(circle, #2c2c2c, #262626, #212121, #1b1b1b, #161616);
+    border: 3px solid #E3BF4B;
+}
+.herosandvillans .content-wrapper p {
+    font-family: 'Montserrat';
+    color: #FFE799;
+}
+.herosandvillans .content-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.herosandvillans h3 {
+    color: #E3BF4B;
+}
+/* herosandvillans section css starts here */
