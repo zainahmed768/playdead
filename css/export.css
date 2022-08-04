@@ -268,3 +268,9 @@
 	width: 37px;
 	object-fit: contain;
 }
+.bounty-sec .heading-content-wrapper h6 {
+	font-family: "aniron";
+	text-align: center;
+	font-size: 14px;
+	color: #e3bf4b;
+}

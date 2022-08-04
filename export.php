@@ -35,6 +35,7 @@
         <!-- Main Content Start Here -->
         <section class="mycharacter-sec bounty-sec">
             <div class="container-fluid">
+
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="bounty-img-wrapper">
@@ -133,6 +134,13 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-content-wrapper">
+                            <h6>weapons</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg-5">
                         <div class="row">
                             <div class="col-lg-6">
@@ -162,60 +170,9 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="wep-wrapper">
-                                    <div class="wep-img-wrapper">
-                                        <figure>
-                                            <img src="img/weapon1.png" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="wep-content-wrapper">
-                                        <ul>
-                                            <li>
-                                                H : 621
-                                            </li>
-                                            <li>
-                                                D : 126
-                                            </li>
-                                            <li>
-                                                B : 621
-                                            </li>
-                                            <li>
-                                                AP : 126
-                                            </li>
-                                            <li>
-                                                APR : 126
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="wep-wrapper">
-                                    <div class="wep-img-wrapper">
-                                        <figure>
-                                            <img src="img/weapon2.png" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="wep-content-wrapper">
-                                        <ul>
-                                            <li>
-                                                H : 621
-                                            </li>
-                                            <li>
-                                                D : 126
-                                            </li>
-                                            <li>
-                                                B : 621
-                                            </li>
-                                            <li>
-                                                AP : 126
-                                            </li>
-                                            <li>
-                                                APR : 126
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+
                                 <div class="wep-wrapper">
                                     <div class="wep-img-wrapper">
                                         <figure>
@@ -274,6 +231,138 @@
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="wep-wrapper">
+                                    <div class="wep-img-wrapper">
+                                        <figure>
+                                            <img src="img/weapon4.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="wep-content-wrapper">
+                                        <ul>
+                                            <li>
+                                                H : 621
+                                            </li>
+                                            <li>
+                                                D : 126
+                                            </li>
+                                            <li>
+                                                B : 621
+                                            </li>
+                                            <li>
+                                                AP : 126
+                                            </li>
+                                            <li>
+                                                APR : 126
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="wep-wrapper">
+                                    <div class="wep-img-wrapper">
+                                        <figure>
+                                            <img src="img/weapon4.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="wep-content-wrapper">
+                                        <ul>
+                                            <li>
+                                                H : 621
+                                            </li>
+                                            <li>
+                                                D : 126
+                                            </li>
+                                            <li>
+                                                B : 621
+                                            </li>
+                                            <li>
+                                                AP : 126
+                                            </li>
+                                            <li>
+                                                APR : 126
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading-content-wrapper">
+                            <h6>activated legends</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="wep-wrapper">
+                                    <div class="wep-img-wrapper">
+                                        <figure>
+                                            <img src="img/weapon1.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="wep-content-wrapper">
+                                        <ul>
+                                            <li>
+                                                H : 621
+                                            </li>
+                                            <li>
+                                                D : 126
+                                            </li>
+                                            <li>
+                                                B : 621
+                                            </li>
+                                            <li>
+                                                AP : 126
+                                            </li>
+                                            <li>
+                                                APR : 126
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="wep-wrapper">
+                                    <div class="wep-img-wrapper">
+                                        <figure>
+                                            <img src="img/weapon2.png" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="wep-content-wrapper">
+                                        <ul>
+                                            <li>
+                                                H : 621
+                                            </li>
+                                            <li>
+                                                D : 126
+                                            </li>
+                                            <li>
+                                                B : 621
+                                            </li>
+                                            <li>
+                                                AP : 126
+                                            </li>
+                                            <li>
+                                                APR : 126
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row">
+                            <div class="col-lg-4">
                                 <div class="wep-wrapper">
                                     <div class="wep-img-wrapper">
                                         <figure>
@@ -328,60 +417,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="wep-wrapper">
-                                    <div class="wep-img-wrapper">
-                                        <figure>
-                                            <img src="img/weapon4.png" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="wep-content-wrapper">
-                                        <ul>
-                                            <li>
-                                                H : 621
-                                            </li>
-                                            <li>
-                                                D : 126
-                                            </li>
-                                            <li>
-                                                B : 621
-                                            </li>
-                                            <li>
-                                                AP : 126
-                                            </li>
-                                            <li>
-                                                APR : 126
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-lg-4">
-                                <div class="wep-wrapper">
-                                    <div class="wep-img-wrapper">
-                                        <figure>
-                                            <img src="img/weapon4.png" alt="">
-                                        </figure>
-                                    </div>
-                                    <div class="wep-content-wrapper">
-                                        <ul>
-                                            <li>
-                                                H : 621
-                                            </li>
-                                            <li>
-                                                D : 126
-                                            </li>
-                                            <li>
-                                                B : 621
-                                            </li>
-                                            <li>
-                                                AP : 126
-                                            </li>
-                                            <li>
-                                                APR : 126
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
                                 <div class="wep-wrapper">
                                     <div class="wep-img-wrapper">
                                         <figure>
