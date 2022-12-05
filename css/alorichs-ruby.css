@@ -2,6 +2,7 @@
 .frame-wrapper .nav-menu ul.menus {
     padding-top: 25px;
 }
+
 .frame-wrapper {
     background-image: url('../img/inventorybg.png') !important;
     background-size: 100% 100%;
@@ -11,16 +12,19 @@
     margin: 4.5rem 2rem;
     position: relative;
 }
+
 .frame-wrapper .border-left img {
     position: absolute;
     left: -22px;
     top: -39px;
 }
+
 .frame-wrapper .border-right img {
     position: absolute;
     right: -22px;
     top: -39px;
 }
+
 .frame-wrapper .centerLogoDv figure img {
     position: absolute;
     left: 0;
@@ -29,14 +33,16 @@
     text-align: center;
     margin: 0px auto;
 }
+
 /* Frame Css End Here */
 
 /* Inventroy Detail Css Start Here */
 .about-alorachis {
     padding: 30px 0 100px;
 }
+
 .about-alorachis .Player-statusDv {
-    background-image: linear-gradient( to right, #181718, #101011, #1a191a, #232323, #171617);
+    background-image: linear-gradient(to right, #181718, #101011, #1a191a, #232323, #171617);
     padding: 30px 40px 90px;
     margin: -10px 0.3px -10px;
     border-left-width: 4px;
@@ -45,15 +51,18 @@
     border-right-width: 4px;
     border-right-style: solid;
 }
+
 .about-alorachis .Player-statusDv .head h3.title {
     color: #E3BF4B;
     text-align: center;
     padding-bottom: 20px;
 }
+
 .about-alorachis .Player-statusDv ul.status-list {
     padding: 0;
     margin: 0;
 }
+
 .about-alorachis .Player-statusDv ul.status-list li {
     list-style: none;
     display: flex;
@@ -62,32 +71,40 @@
     border-bottom: 1px solid #313131;
     padding: 8px 0 0px;
 }
+
 .about-alorachis .Player-statusDv ul.status-list li h4 {
     color: #e3bf4b;
 }
-.about-alorachis .Player-statusDv ul.status-list li  span {
+
+.about-alorachis .Player-statusDv ul.status-list li span {
     color: #fff;
     font-family: 'aniron';
 }
+
 .about-alorachis .ruby-detail .heading h1.title {
     color: #E3BF4B;
     font-family: 'aniron';
     font-size: 26px;
 }
+
 .about-alorachis .ruby-detail .heading {
     padding-bottom: 20px;
 }
+
 .about-alorachis .ruby-detail .image-with-btn {
     margin-bottom: 20px;
 }
+
 .about-alorachis .ruby-detail .description p {
     color: #ffffffa6;
     padding-right: 150px;
 }
+
 .about-alorachis .ruby-detail .select-Box ul.awardsBox {
     padding: 0;
     margin-bottom: 0;
 }
+
 .about-alorachis .ruby-detail .select-Box ul.awardsBox li {
     list-style: none;
     border-style: solid;
@@ -102,8 +119,9 @@
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to right,#000002,#101011,#1a191a,#232323,#2c2c2c);
+    background: linear-gradient(to right, #000002, #101011, #1a191a, #232323, #2c2c2c);
     display: inline-block;
     margin-right: 10px;
 }
+
 /* Inventroy Detail Css Start Here */

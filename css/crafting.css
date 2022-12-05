@@ -1,0 +1,91 @@
+/* Crafting Css Start Here */
+.frame-wrapper {
+    background-image: url('../img/craft-back.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.crafting_sec {
+    padding: 40px 0 100px;
+}
+
+.crafting_sec .heading-wrapper {
+    text-align: center;
+}
+
+.crafting_sec .heading-wrapper h4 {
+    color: #E3BF4B;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.crafting_sec .all-crafting-wrapper ul {
+    display: flex;
+    align-items: end;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.crafting_sec .all-crafting-wrapper ul li {
+    width: 20%;
+    list-style: none;
+}
+
+.crafting_sec .all-crafting-wrapper ul li figure img {
+    width: 190px;
+}
+
+.crafting_sec .all-crafting-wrapper ul li .img-box {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.crafting_sec .all-crafting-wrapper ul li .img-box .shade {
+    position: absolute;
+    left: 0px;
+    bottom: -17px;
+}
+
+.crafting_sec .all-crafting-wrapper ul li .img-box figure {
+    position: relative;
+    z-index: 2;
+}
+
+.crafting_sec .all-crafting-wrapper ul li .name h4 {
+    color: #E3BF4B;
+    font-size: 14px;
+    text-align: center;
+}
+
+.crafting_sec .all-crafting-wrapper {
+    padding-top: 70px;
+}
+
+/* Crafting Css End Here */

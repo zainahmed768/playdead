@@ -49,12 +49,14 @@
                                 </div>
                                 <div class="Detail-inner">
                                     <div class="forTop-border">
-                                        <figure><img src="img/btop.png"  alt=""></figure>
+                                        <figure><img src="img/btop.png" alt=""></figure>
                                     </div>
                                     <div class="itemsBox text-white">
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item1.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item1.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">mask</h5>
@@ -69,7 +71,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item2.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item2.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">neck</h5>
@@ -84,7 +88,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item3.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item3.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">cape</h5>
@@ -99,7 +105,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item4.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item4.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">chest</h5>
@@ -114,7 +122,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item5.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item5.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">gloves</h5>
@@ -129,7 +139,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item6.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item6.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">belt</h5>
@@ -144,7 +156,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item7.png" class="animate__animated animate__bounceIn animate__delay-1s" alt=""></figure>
+                                                <figure><img src="img/item7.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-1s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">boots</h5>
@@ -159,7 +173,7 @@
                                         </div>
                                     </div>
                                     <div class="forBottom-border">
-                                        <figure><img src="img/bbottom.png"  alt=""></figure>
+                                        <figure><img src="img/bbottom.png" alt=""></figure>
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +213,9 @@
                                     <div class="itemsBox text-white">
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item8.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item8.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">helmet</h5>
@@ -214,7 +230,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item9.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item9.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">shoulders</h5>
@@ -229,7 +247,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item10.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item10.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">bands</h5>
@@ -244,7 +264,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item11.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item11.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">bracers</h5>
@@ -259,7 +281,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item12.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item12.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">legs</h5>
@@ -274,7 +298,9 @@
                                         </div>
                                         <div class="clothings">
                                             <div class="imgbox">
-                                                <figure><img src="img/item13.png" class="animate__animated animate__bounceIn animate__delay-2s" alt=""></figure>
+                                                <figure><img src="img/item13.png"
+                                                        class="animate__animated animate__bounceIn animate__delay-2s"
+                                                        alt=""></figure>
                                             </div>
                                             <div class="contentDv">
                                                 <h5 class="title">rings lh</h5>
@@ -700,10 +726,10 @@
                                                 <div class="col-6">
                                                     <div class="inventory-itemBox">
                                                         <a href="inventory.php">
-                                                        <figure><img src="img/inventory1.png" alt=""></figure>
-                                                        <div class="count">
-                                                            <span class="large">01</span>
-                                                        </div>
+                                                            <figure><img src="img/inventory1.png" alt=""></figure>
+                                                            <div class="count">
+                                                                <span class="large">01</span>
+                                                            </div>
                                                         </a>
                                                     </div>
                                                 </div>

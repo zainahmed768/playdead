@@ -1,0 +1,221 @@
+/* Craft Item Css Start Here */
+.frame-wrapper {
+    background-image: url('../img/craft-back.png') !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.crafted-items {
+    padding: 80px 0 100px;
+}
+
+/* Inventory Css Start Here */
+.inventroy-Box {
+    background-image: linear-gradient(to right, #181718, #101011, #1a191a, #232323, #171617);
+    padding: 60px 20px 30px;
+    margin: -10px 0px -10px;
+    border-left-width: 4px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    border-left-style: solid;
+    border-right-width: 4px;
+    border-right-style: solid;
+}
+
+.inventroy-Box .inventories {
+    padding-top: 40px;
+}
+
+.inventroy-Box .beforeImg {
+    position: absolute;
+    right: -10px;
+    z-index: 1;
+    top: 20px;
+}
+
+.inventroy-Box .inventories ul.inventory-links {
+    padding: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.inventroy-Box .inventories ul.inventory-links li a {
+    font-size: 10px;
+    color: #E3BF4B;
+    font-family: 'aniron';
+    opacity: 0.6;
+}
+
+.inventroy-Box .inventories ul.inventory-links li a.active {
+    opacity: 1;
+}
+
+.inventroy-Box .title {
+    padding-bottom: 20px;
+}
+
+.inventroy-Box .search-Box form .form-group input {
+    background-image: url(../img/searchicon.png) !important;
+    font-size: 9px;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-position-x: 5px !important;
+    font-family: 'Poppins';
+    color: #fff;
+    border-radius: 0;
+    background: transparent;
+    border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+    border-image-slice: 1;
+    border-width: 2px;
+    padding-left: 25px;
+}
+
+.inventroy-Box .search-Box form .form-group input::placeholder {
+    color: #ffffff7d;
+}
+
+.inventroy-Box .inventory-itemBox {
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+    height: 70px;
+    width: 100%;
+    border-image-slice: 1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.inventroy-Box .inventory-itemBox .count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+    font-family: 'Poppins';
+    font-weight: 800;
+    border-radius: 7px 0 0 0;
+    height: 20px;
+    line-height: 20px;
+    width: 18px;
+}
+
+.inventroy-Box .inventory-itemBox .count span {
+    color: #000;
+    font-size: 7px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.inventroy-Box .inventory-itemBox .count span.large {
+    font-size: 12px;
+}
+
+.inventroy-Box .nextBtn {
+    text-align: right;
+}
+
+/* Inventory Css End Here */
+.crafted-items .crafted-box {
+    text-align: center;
+}
+
+.crafted-items .crafted-box .heading-wrapper h4 {
+    font-size: 20px;
+    color: #E3BF4B;
+}
+
+.crafted-items .crafted-box .heading-wrapper {
+    padding-bottom: 20px;
+}
+
+.crafted-items .required_items .title h4 {
+    font-size: 20px;
+    color: #E3BF4B;
+    padding-bottom: 10px;
+}
+
+.crafted-items .required_items ul.items-boxes {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.crafted-items .required_items ul.items-boxes li .item-box {
+    list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    width: 60px;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000002, #101011, #1a191a, #232323, #2c2c2c);
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.crafted-items .required_items ul.items-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crafted-items .required_items .button-group {
+    margin-top: 15px;
+}
+
+.crafted-items .required_items .button-group .created {
+    list-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-image: radial-gradient(#fff3de, #B88425) 1;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000002, #101011, #1a191a, #232323, #2c2c2c);
+    display: inline-block;
+    margin: 0 2px;
+    color: #E3BF4B;
+    padding: 8px 45px;
+}
+
+.crafted-items .required_items .title {
+    padding-bottom: 10px;
+}
+
+/* Craft Item Css End Here */
