@@ -1,0 +1,98 @@
+/* Guild Detail Css Start Here */
+.frame-wrapper {
+	background-image: url("../img/player-back.png") !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 3rem 2rem;
+	margin: 4.5rem 2rem;
+	position: relative;
+}
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+}
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+}
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+}
+.guild_detail_sec {
+	padding: 80px 0 100px;
+	text-align: center;
+}
+.guild_detail_sec .guild_detail_box .player-img img {
+	height: 335px;
+	width: 350px;
+	object-fit: cover;
+	object-position: top;
+	list-style: none;
+	border-style: solid;
+	border-width: 5px;
+	border-image: radial-gradient(#fff3de, #b88425) 1;
+}
+.guild_detail_sec .guild_detail_box .player-img {
+	margin-bottom: 20px;
+}
+.guild_detail_sec .guild_detail_box .player-detail h4 {
+	color: #e3bf4b;
+	font-size: 16px;
+	line-height: 26px;
+}
+.guild_detail_sec .guild_detail_box .player-detail h4 span {
+	color: #fff;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.guild_detail_sec .button-group {
+	display: flex;
+	max-width: 45%;
+	margin: 40px auto 0;
+}
+.guild_detail_sec .button-group a.btnn {
+	background-image: linear-gradient(
+		to right bottom,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	border-radius: 0px;
+	color: #e3bf4b !important;
+	font-family: "aniron";
+	font-size: 12px;
+	padding: 15px 20px;
+	border: 0px solid;
+	border-style: solid;
+	border-width: 3px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-radius: 4px;
+	border-image-slice: 1;
+	margin-right: 20px;
+	width: 100%;
+	display: block;
+}
+/* Guild Detail Css End Here */
