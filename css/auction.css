@@ -1,0 +1,130 @@
+/* Auction Css Start Here */
+.frame-wrapper {
+	background-image: url("../img/auction-back.png") !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 2rem 2rem 3rem;
+	margin: 4.5rem 2rem;
+	position: relative;
+}
+
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+}
+
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+}
+
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+}
+.auction_sec ul.auction-items {
+	padding: 300px 0 200px;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.auction_sec ul.auction-items .auction-box {
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+.auction_sec ul.auction-items .auction-box .txt h4 {
+	color: #ffffff;
+	font-size: 12px;
+	padding: 11px 0;
+}
+.auction_sec ul.auction-items li:nth-child(1) {
+	position: absolute;
+	left: -14%;
+	bottom: 18%;
+}
+.auction_sec ul.auction-items li:nth-child(2) {
+	position: absolute;
+	left: -4%;
+	bottom: 27%;
+}
+.auction_sec ul.auction-items li:nth-child(3) {
+	position: absolute;
+	left: 9%;
+	bottom: 31%;
+}
+.auction_sec ul.auction-items li:nth-child(4) {
+	position: absolute;
+	left: 22%;
+	bottom: 37%;
+}
+.auction_sec ul.auction-items li:nth-child(5) {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 30%;
+}
+.auction_sec ul.auction-items li:nth-child(5) .img-box img {
+	height: 190px;
+}
+.auction_sec ul.auction-items li:nth-child(6) {
+	position: absolute;
+	right: 24%;
+	bottom: 34%;
+}
+.auction_sec ul.auction-items li:nth-child(7) {
+	position: absolute;
+	right: 10%;
+	bottom: 29%;
+}
+.auction_sec ul.auction-items li:nth-child(8) {
+	position: absolute;
+	right: -3%;
+	bottom: 23%;
+}
+.auction_sec ul.auction-items li:nth-child(9) {
+	position: absolute;
+	right: -15%;
+	bottom: 16%;
+}
+.auction_sec ul.auction-items li:nth-child(5) .txt h4 {
+	font-size: 15px;
+	line-height: 25px;
+}
+.auction_sec ul.auction-items li .auction-box:before {
+	content: "";
+	background: #fbce00;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 13px;
+	margin: 0px auto;
+	box-shadow: 0px 0px 30px 35px #fbce00;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	z-index: -1;
+}
+.auction_sec ul.auction-items li:nth-child(5) .auction-box:before {
+	content: "";
+	background: #fbce00;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 40%;
+	margin: 0px auto;
+	box-shadow: 0px 0px 60px 85px #fbce00;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	z-index: -1;
+}
+/* Auction Css End Here */

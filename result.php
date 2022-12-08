@@ -39,43 +39,9 @@
     <!-- Result Sec Start Here -->
     <section class="results_sec">
         <div class="container">
-            <div class="top-menus">
-                <ul class="menus">
-                    <li>
-                        <a href="#">portalis</a>
-                    </li>
-                    <li>
-                        <a href="#">castle</a>
-                    </li>
-                    <li>
-                        <a href="#">gate house</a>
-                    </li>
-                    <li>
-                        <a href="#">court yard</a>
-                    </li>
-                    <li>
-                        <a href="#">armory</a>
-                    </li>
-                    <li>
-                        <a href="#">treasure room</a>
-                    </li>
-                    <li>
-                        <a href="#">chapel</a>
-                    </li>
-                    <li>
-                        <a href="#">dungeon</a>
-                    </li>
-                    <li>
-                        <a href="#">solar</a>
-                    </li>
-                    <li>
-                        <a href="#">throne room</a>
-                    </li>
-                    <li>
-                        <a href="#">guilt hall</a>
-                    </li>
-                </ul>
-            </div>
+            <!-- Menus Start Here -->
+            <?php include 'inc/castle-menus.php'?>
+            <!-- Menus End Here -->
             <div class="discord-wrapper">
                 <div class="img-box">
                     <figure><img src="img/tiger.png" alt="" class="img-fluid"></figure>
@@ -87,9 +53,9 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua.</p>
                 <div class="levels">
-                    <h3>Guild level <span>02</span></h3>
-                    <h3>Leader <span>Marcus Fenix</span></h3>
-                    <h3>Co-leader <span>John</span></h3>
+                    <h4>Guild level <span>02</span></h4>
+                    <h4>Leader <span>Marcus Fenix</span></h4>
+                    <h4>Co-leader <span>John</span></h4>
                 </div>
                 <div class="achivements">
                     <h2 class="title">Achievements</h2>

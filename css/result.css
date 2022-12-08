@@ -1,33 +1,235 @@
 /* Results Css Start Here */
 .frame-wrapper {
-    background-image: url('../img/craft-back.png') !important;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: auto;
-    padding: 2rem 2rem 3rem;
-    margin: 4.5rem 2rem;
-    position: relative;
+	background-image: url("../img/result-back.png") !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 2rem 2rem 3rem;
+	margin: 4.5rem 2rem;
+	position: relative;
 }
 
 .frame-wrapper .border-left img {
-    position: absolute;
-    left: -22px;
-    top: -39px;
+	position: absolute;
+	left: -22px;
+	top: -39px;
 }
 
 .frame-wrapper .border-right img {
-    position: absolute;
-    right: -22px;
-    top: -39px;
+	position: absolute;
+	right: -22px;
+	top: -39px;
 }
 
 .frame-wrapper .centerLogoDv figure img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -70px;
-    text-align: center;
-    margin: 0px auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
 }
-
+.results_sec {
+	padding: 60px 0 100px;
+}
+.results_sec .discord-wrapper {
+	padding-top: 50px;
+	text-align: center;
+}
+.results_sec .discord-wrapper .img-box img {
+	width: 120px;
+	height: 120px;
+	margin: 0px auto;
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 10px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	transition: all 0.3s ease-in-out;
+}
+.results_sec .discord-wrapper .img-box {
+	margin-bottom: 20px;
+}
+.results_sec .discord-wrapper .heading h3 {
+	color: #e3bf4b;
+	font-size: 18px;
+	font-family: "aniron";
+	line-height: 24px;
+}
+.results_sec .discord-wrapper h4 {
+	color: #fff;
+	font-size: 16px;
+	line-height: 26px;
+}
+.results_sec .discord-wrapper h4 span {
+	color: #e3bf4b;
+}
+.results_sec .discord-wrapper {
+	margin: 0px auto;
+}
+.results_sec .discord-wrapper p {
+	color: #fff;
+	font-size: 12px;
+	width: 45%;
+	margin: 0px auto 10px;
+}
+.results_sec .discord-wrapper .achivements {
+	padding-top: 10px;
+}
+.results_sec .discord-wrapper .achivements h2.title {
+	color: #e3bf4b;
+	font-size: 20px;
+	font-family: "aniron";
+	line-height: 30px;
+}
+.results_sec .discord-wrapper .achivements ul.all-achivements {
+	padding: 0;
+	margin: 15px 0 10px 0px;
+	list-style: none;
+}
+.results_sec .discord-wrapper .achivements ul.all-achivements li {
+	display: inline-block;
+	text-align: center;
+}
+.achivements ul.all-achivements li .trophy figure {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 10px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	transition: all 0.3s ease-in-out;
+	height: 60px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 4px;
+}
+.achivements ul.all-achivements li .trophy figure img {
+	width: 22px;
+	height: auto;
+}
+.achivements ul.all-achivements li .trophy h5 {
+	margin: 0;
+	color: #e3bf4b;
+	font-size: 10px;
+	font-family: "aniron";
+	line-height: 20px;
+}
+.results_sec .discord-wrapper .achivements .button-group a {
+	margin: 0;
+	color: #fff;
+	font-size: 10px;
+	font-family: "aniron";
+	line-height: 20px;
+}
+.results_sec .discord-wrapper .members {
+	padding-top: 15px;
+}
+.results_sec .discord-wrapper .title h2 {
+	color: #e3bf4b;
+	font-family: "aniron";
+	font-size: 20px;
+	line-height: 30px;
+}
+.results_sec .discord-wrapper .members ul.all-members {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+.results_sec .discord-wrapper .members ul.all-members li {
+	display: inline-block;
+}
+.results_sec .discord-wrapper .members ul.all-members li figure img {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 10px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	transition: all 0.3s ease-in-out;
+	height: 60px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 3px 4px;
+}
 /* Results Css End Here */
