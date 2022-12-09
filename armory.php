@@ -37,7 +37,7 @@
             <div class="container">
                 <div class="heading-wrapper">
                     <div class="button-group">
-                        <a href="#" class="btnn">Back</a>
+                        <a href="castle.php" class="btnn">Back</a>
                     </div>
                     <div class="title">
                         <figure><img src="img/armory-text.png" alt="" class="img-fluid"></figure>

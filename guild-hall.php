@@ -47,13 +47,15 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="guild-box">
-                                <div class="img-box">
-                                    <figure><img src="img/guild-hall1.png" alt="" class="img-fluid"></figure>
-                                </div>
-                                <div class="txt">
-                                    <h4>Player Name <span>Marion</span></h4>
-                                    <h4>Player level <span>02</span></h4>
-                                </div>
+                                <a href="guild-detail.php">
+                                    <div class="img-box">
+                                        <figure><img src="img/guild-hall1.png" alt="" class="img-fluid"></figure>
+                                    </div>
+                                    <div class="txt">
+                                        <h4>Player Name <span>Marion</span></h4>
+                                        <h4>Player level <span>02</span></h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
