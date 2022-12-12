@@ -1,4 +1,9 @@
 /* Auction Css Start Here */
+.welcome_video video {
+	position: absolute;
+	top: 0;
+	z-index: 9;
+}
 .frame-wrapper {
 	background-image: url("../img/auction-back.png") !important;
 	background-size: 100% 100%;
@@ -84,14 +89,35 @@
 .auction_sec ul.auction-items li:nth-child(5) .img-box img {
 	height: 210px;
 	font-size: 10px;
-	background-image: linear-gradient(to right, #000002, #101011, #1a191a, #232323, #2c2c2c);
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #ffe698 !important;
 	font-family: "aniron";
 	font-size: 10px;
 	border: 3px solid;
-	border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
 	border-image-slice: 1;
 	border-width: 3px;
 	transition: all 0.3s ease-in-out;
@@ -158,14 +184,35 @@
 }
 
 .auction_sec ul.auction-items .auction-box .img-box img {
-	background-image: linear-gradient(to right, #000002, #101011, #1a191a, #232323, #2c2c2c);
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #ffe698 !important;
 	font-family: "aniron";
 	font-size: 10px;
 	border: 3px solid;
-	border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
 	border-image-slice: 1;
 	border-width: 3px;
 	transition: all 0.3s ease-in-out;

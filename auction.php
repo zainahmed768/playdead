@@ -7,6 +7,11 @@
 <!-- css start here -->
 
 <!-- Detail Section Start Here -->
+<div class="welcome_video" id="WelcomeVdo">
+    <video width="100%" heigh="100vh" autoplay>
+        <source src="img/welcome.mp4" type="video/mp4">
+    </video>
+</div>
 <div class="frame-wrapper">
     <div class="border-left">
         <img src="img/borderleft.png" class="img-fluid" alt="">
@@ -142,3 +147,14 @@
     <!-- Result End Here -->
 
 </div>
+
+<!-- FooterLink Include -->
+<?php include 'inc/footerlinks.php'?>
+<!-- FooterLink Include -->
+
+<script>
+setTimeout(() => {
+    console.log('DONEE')
+    $('#WelcomeVdo').fadeOut(400)
+}, 3500)
+</script>
