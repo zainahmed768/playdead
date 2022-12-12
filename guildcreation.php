@@ -21,12 +21,12 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
-
+                    <?php include 'inc/menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -51,7 +51,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group my-3">
-                                    <textarea name="" placeholder="Description ..." class="form-control" id="" cols="30" rows="8"></textarea>
+                                    <textarea name="" placeholder="Description ..." class="form-control" id="" cols="30"
+                                        rows="8"></textarea>
                                 </div>
                                 <div class="form-group row mt-4">
                                     <div class="col-md-4">
@@ -71,7 +72,7 @@
                                         <input type="text" class="form-control" placeholder="Search Player">
                                     </div>
                                     <div class="col-lg-6">
-                                    <button class="btn">create guild</button>
+                                        <button class="btn">create guild</button>
                                     </div>
                                 </div>
                             </form>

@@ -21,10 +21,10 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
                     <?php include 'inc/menu.php'; ?>
                 </div>
@@ -118,7 +118,9 @@
                             </div>
                             <div class="notes-content-wrapper">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris
                                 </p>
                                 <ul>
                                     <li>nisi ut aliquip </li>
@@ -127,7 +129,9 @@
                                     <li>Duis aute </li>
                                 </ul>
                                 <p>
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                    deserunt mollit anim id est laborum.
                                 </p>
                             </div>
                         </div>
@@ -456,13 +460,15 @@
 
 <!-- modal starts here -->
 <!-- Modal -->
-<div class="modal fade" id="BountyModal" tabindex="-1" role="dialog" aria-labelledby="BountyModalLabel" aria-hidden="true">
+<div class="modal fade" id="BountyModal" tabindex="-1" role="dialog" aria-labelledby="BountyModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-body">
                 <h4>Mics Stats note</h4>
                 <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..|
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum..|
                 </p>
                 <button class="btn">save</button>
             </div>

@@ -22,12 +22,12 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
-                    <?php include 'inc/character-menu-items.php'; ?>
+                    <?php include 'inc/menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -43,7 +43,8 @@
                     <div class="col-lg-6 text-center">
                         <div class="main-charater-img">
                             <figure>
-                                <img src="img/playheading.png" class="animate__animated  animate__fadeInDownBig img-fluid" alt="">
+                                <img src="img/playheading.png"
+                                    class="animate__animated  animate__fadeInDownBig img-fluid" alt="">
                             </figure>
                             <div class="btn-wrapper animate__animated animate__fadeInUpBig mt-5">
                                 <a href="login.php" class=" btn-theme">Next</a>
@@ -64,7 +65,8 @@
         <div class="row text-center pb-5">
             <div class="col-sm-12">
                 <figure>
-                    <img src="img/Character.png" class="animate__animated  animate__fadeInDown animate__delay-2s img-fluid" alt="">
+                    <img src="img/Character.png"
+                        class="animate__animated  animate__fadeInDown animate__delay-2s img-fluid" alt="">
                 </figure>
             </div>
         </div>
@@ -83,7 +85,8 @@
                     </div>
                     <!-- 7 character ends here -->
                 </div>
-                <p class="char-des">Ferocious combatant that relies on strength and rage. Warriors are the strongest of the classes. Warriors can equip any type of weapon but feel most at home with melee weapons.</p>
+                <p class="char-des">Ferocious combatant that relies on strength and rage. Warriors are the strongest of
+                    the classes. Warriors can equip any type of weapon but feel most at home with melee weapons.</p>
                 <a href="#" class="cta">See more</a>
             </div>
             <div class="col-md-4">

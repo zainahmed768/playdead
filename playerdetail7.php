@@ -6,17 +6,17 @@
 <link rel="stylesheet" href="css/playerdetail7.css">
 <!-- css start here -->
 <style>
-    .equipments .value h4 {
-        color: #fff !important;
-    }
+.equipments .value h4 {
+    color: #fff !important;
+}
 
-    .armored-stats .value h4 {
-        color: #fff !important;
-    }
+.armored-stats .value h4 {
+    color: #fff !important;
+}
 
-    .about-player.info .value h4 {
-        color: #fff !important;
-    }
+.about-player.info .value h4 {
+    color: #fff !important;
+}
 </style>
 
 <!-- Detail Section Start Here -->
@@ -38,10 +38,10 @@
 
     <!-- Menus -->
     <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-7">
 
-        </div>
-        <div class="col-md-6">
+            </div> -->
+        <div class="col-md-12">
             <div class="Menus text-right">
                 <?php include 'inc/menu.php'; ?>
             </div>
@@ -192,7 +192,8 @@
                                     <h4>character exp</h4>
                                     <div class="progress">
                                         <label>60%</label>
-                                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
                                         </div>
                                     </div>
                                 </div>
@@ -707,7 +708,8 @@
                                         <div class="search-Box">
                                             <form>
                                                 <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Search item here">
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Search item here">
                                                 </div>
                                             </form>
                                         </div>

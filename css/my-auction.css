@@ -1,0 +1,95 @@
+/* Auction Css Start Here */
+.frame-wrapper {
+	background-image: url("../img/myacution-back.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: auto;
+	padding: 2rem 2rem 3rem;
+	margin: 4.5rem 2rem;
+	position: relative;
+}
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+}
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+}
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+}
+.my_auction {
+	padding-bottom: 200px !important;
+}
+.my_auction ul.all-auction-items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.my_auction ul.all-auction-items li {
+	width: 20%;
+	margin: 0 20px;
+}
+ul.all-auction-items li .aucton-box h5 {
+	color: #e3bf4b;
+	font-size: 13px;
+	font-family: "Montserrat";
+}
+ul.all-auction-items li .aucton-box h4 {
+	font-size: 14px;
+	color: #ffffff;
+}
+ul.all-auction-items li .aucton-box .img-box {
+	background: radial-gradient(
+		circle,
+		#2c2c2c,
+		#262626,
+		#212121,
+		#1b1b1b,
+		#161616
+	);
+	width: 100%;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+}
+ul.all-auction-items li .aucton-box .topbar {
+	padding-bottom: 10px;
+}
+ul.all-auction-items li .aucton-box .bottombar {
+	padding-top: 10px;
+}
+ul.all-auction-items li .aucton-box {
+	text-align: center;
+}
+/* Auction Css End Here */

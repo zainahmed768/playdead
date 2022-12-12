@@ -21,10 +21,10 @@
 
     <!-- Menus -->
     <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-7">
 
-        </div>
-        <div class="col-md-6">
+            </div> -->
+        <div class="col-md-12">
             <div class="Menus text-right">
                 <?php include 'inc/menu.php'; ?>
             </div>
@@ -55,24 +55,57 @@
                     <div class="row">
                         <div class="col-md-2">
                             <div class="inventories">
-                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
                                     <ul class="inventory-links">
-                                        <li><a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">ammo</a></li>
-                                        <li> <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">armor pve</a></li>
-                                        <li><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">armor pvp</a></li>
-                                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">awards</a></li>
-                                        <li><a class="nav-link" id="v-pills-bionics-tab" data-toggle="pill" href="#v-pills-bionics" role="tab" aria-controls="v-pills-bionics" aria-selected="false">bionics</a></li>
-                                        <li><a class="nav-link" id="v-pills-gems-tab" data-toggle="pill" href="#v-pills-gems" role="tab" aria-controls="v-pills-gems" aria-selected="false">gems & glyphs</a></li>
-                                        <li><a class="nav-link" id="v-pills-grenades-tab" data-toggle="pill" href="#v-pills-grenades" role="tab" aria-controls="v-pills-grenades" aria-selected="false">grenades</a></li>
-                                        <li><a class="nav-link" id="v-pills-legends-tab" data-toggle="pill" href="#v-pills-legends" role="tab" aria-controls="v-pills-legends" aria-selected="false">legends</a></li>
-                                        <li><a class="nav-link" id="v-pills-misc-tab" data-toggle="pill" href="#v-pills-misc" role="tab" aria-controls="v-pills-misc" aria-selected="false">misc</a></li>
-                                        <li><a class="nav-link" id="v-pills-player-tab" data-toggle="pill" href="#v-pills-player" role="tab" aria-controls="v-pills-player" aria-selected="false">player buffs</a></li>
-                                        <li><a class="nav-link" id="v-pills-potions-tab" data-toggle="pill" href="#v-pills-potions" role="tab" aria-controls="v-pills-potions" aria-selected="false">potions</a></li>
-                                        <li><a class="nav-link" id="v-pills-pets-tab" data-toggle="pill" href="#v-pills-pets" role="tab" aria-controls="v-pills-pets" aria-selected="false">pets</a></li>
-                                        <li><a class="nav-link" id="v-pills-skin-tab" data-toggle="pill" href="#v-pills-skin" role="tab" aria-controls="v-pills-skin" aria-selected="false">skin</a></li>
-                                        <li><a class="nav-link" id="v-pills-smokes-tab" data-toggle="pill" href="#v-pills-smokes" role="tab" aria-controls="v-pills-smokes" aria-selected="false">smokes & sparks</a></li>
-                                        <li><a class="nav-link" id="v-pills-stronghold-tab" data-toggle="pill" href="#v-pills-stronghold" role="tab" aria-controls="v-pills-stronghold" aria-selected="false">stronghold</a></li>
-                                        <li><a class="nav-link" id="v-pills-weapons-tab" data-toggle="pill" href="#v-pills-weapons" role="tab" aria-controls="v-pills-weapons" aria-selected="false">weapons</a></li>
+                                        <li><a class="nav-link" id="v-pills-home-tab" data-toggle="pill"
+                                                href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                                aria-selected="true">ammo</a></li>
+                                        <li> <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill"
+                                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                                aria-selected="false">armor pve</a></li>
+                                        <li><a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
+                                                href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                                aria-selected="false">armor pvp</a></li>
+                                        <li><a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
+                                                href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                                aria-selected="false">awards</a></li>
+                                        <li><a class="nav-link" id="v-pills-bionics-tab" data-toggle="pill"
+                                                href="#v-pills-bionics" role="tab" aria-controls="v-pills-bionics"
+                                                aria-selected="false">bionics</a></li>
+                                        <li><a class="nav-link" id="v-pills-gems-tab" data-toggle="pill"
+                                                href="#v-pills-gems" role="tab" aria-controls="v-pills-gems"
+                                                aria-selected="false">gems & glyphs</a></li>
+                                        <li><a class="nav-link" id="v-pills-grenades-tab" data-toggle="pill"
+                                                href="#v-pills-grenades" role="tab" aria-controls="v-pills-grenades"
+                                                aria-selected="false">grenades</a></li>
+                                        <li><a class="nav-link" id="v-pills-legends-tab" data-toggle="pill"
+                                                href="#v-pills-legends" role="tab" aria-controls="v-pills-legends"
+                                                aria-selected="false">legends</a></li>
+                                        <li><a class="nav-link" id="v-pills-misc-tab" data-toggle="pill"
+                                                href="#v-pills-misc" role="tab" aria-controls="v-pills-misc"
+                                                aria-selected="false">misc</a></li>
+                                        <li><a class="nav-link" id="v-pills-player-tab" data-toggle="pill"
+                                                href="#v-pills-player" role="tab" aria-controls="v-pills-player"
+                                                aria-selected="false">player buffs</a></li>
+                                        <li><a class="nav-link" id="v-pills-potions-tab" data-toggle="pill"
+                                                href="#v-pills-potions" role="tab" aria-controls="v-pills-potions"
+                                                aria-selected="false">potions</a></li>
+                                        <li><a class="nav-link" id="v-pills-pets-tab" data-toggle="pill"
+                                                href="#v-pills-pets" role="tab" aria-controls="v-pills-pets"
+                                                aria-selected="false">pets</a></li>
+                                        <li><a class="nav-link" id="v-pills-skin-tab" data-toggle="pill"
+                                                href="#v-pills-skin" role="tab" aria-controls="v-pills-skin"
+                                                aria-selected="false">skin</a></li>
+                                        <li><a class="nav-link" id="v-pills-smokes-tab" data-toggle="pill"
+                                                href="#v-pills-smokes" role="tab" aria-controls="v-pills-smokes"
+                                                aria-selected="false">smokes & sparks</a></li>
+                                        <li><a class="nav-link" id="v-pills-stronghold-tab" data-toggle="pill"
+                                                href="#v-pills-stronghold" role="tab" aria-controls="v-pills-stronghold"
+                                                aria-selected="false">stronghold</a></li>
+                                        <li><a class="nav-link" id="v-pills-weapons-tab" data-toggle="pill"
+                                                href="#v-pills-weapons" role="tab" aria-controls="v-pills-weapons"
+                                                aria-selected="false">weapons</a></li>
                                     </ul>
                                 </div>
                                 <!-- <ul class="inventory-links">
@@ -97,7 +130,8 @@
                         </div>
                         <div class="col-md-10">
                             <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -466,7 +500,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -835,7 +870,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                    aria-labelledby="v-pills-messages-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -1204,7 +1240,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                    aria-labelledby="v-pills-settings-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -1573,7 +1610,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-bionics" role="tabpanel" aria-labelledby="v-pills-bionics-tab">
+                                <div class="tab-pane fade" id="v-pills-bionics" role="tabpanel"
+                                    aria-labelledby="v-pills-bionics-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -1942,7 +1980,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-gems" role="tabpanel" aria-labelledby="v-pills-gems-tab">
+                                <div class="tab-pane fade" id="v-pills-gems" role="tabpanel"
+                                    aria-labelledby="v-pills-gems-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -2311,7 +2350,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-grenades" role="tabpanel" aria-labelledby="v-pills-grenades-tab">
+                                <div class="tab-pane fade" id="v-pills-grenades" role="tabpanel"
+                                    aria-labelledby="v-pills-grenades-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -2680,7 +2720,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-legends" role="tabpanel" aria-labelledby="v-pills-legends-tab">
+                                <div class="tab-pane fade" id="v-pills-legends" role="tabpanel"
+                                    aria-labelledby="v-pills-legends-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -3049,7 +3090,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-misc" role="tabpanel" aria-labelledby="v-pills-misc-tab">
+                                <div class="tab-pane fade" id="v-pills-misc" role="tabpanel"
+                                    aria-labelledby="v-pills-misc-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -3418,7 +3460,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-player" role="tabpanel" aria-labelledby="v-pills-player-tab">
+                                <div class="tab-pane fade" id="v-pills-player" role="tabpanel"
+                                    aria-labelledby="v-pills-player-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -3787,7 +3830,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-potions" role="tabpanel" aria-labelledby="v-pills-potions-tab">
+                                <div class="tab-pane fade" id="v-pills-potions" role="tabpanel"
+                                    aria-labelledby="v-pills-potions-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">
@@ -4156,7 +4200,8 @@
                                         <!-- row 5 starts here -->
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-pets" role="tabpanel" aria-labelledby="v-pills-pets-tab">
+                                <div class="tab-pane fade" id="v-pills-pets" role="tabpanel"
+                                    aria-labelledby="v-pills-pets-tab">
                                     <div class="inventory-selection">
                                         <!-- row 1 starts here -->
                                         <div class="row">

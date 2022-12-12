@@ -21,12 +21,12 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
-                <?php include 'inc/menu.php'; ?>
+                    <?php include 'inc/menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -52,13 +52,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black1.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black1.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -75,13 +81,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black2.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black2.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -102,13 +114,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black3.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black3.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -125,13 +143,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black4.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black4.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -148,13 +172,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black5.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black5.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -175,13 +205,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black3.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black3.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -198,13 +234,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black5.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black5.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -221,13 +263,19 @@
                                 <div class="mychar-wrapper">
                                     <div class="black-img-wrapper text-right">
                                         <figure>
-                                            <img src="img/black1.png" class="animate__animated animate__fadeInDown img-fluid" alt="">
+                                            <img src="img/black1.png"
+                                                class="animate__animated animate__fadeInDown img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -251,11 +299,16 @@
                                         <figure>
                                             <img src="img/black4.png" class="img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>
@@ -274,11 +327,16 @@
                                         <figure>
                                             <img src="img/black2.png" class="img-fluid" alt="">
                                             <ul>
-                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
-                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span class="hvalue">64</span></li>
+                                                <li><span class="h">H</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="B">B</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="D">D</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="AP">AP</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
+                                                <li><span class="APR">APR</span> &nbsp; : &nbsp; <span
+                                                        class="hvalue">64</span></li>
                                             </ul>
                                         </figure>
                                     </div>

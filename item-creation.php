@@ -25,10 +25,10 @@
 
     <!-- Menus -->
     <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-7">
 
-        </div>
-        <div class="col-md-6">
+            </div> -->
+        <div class="col-md-12">
             <div class="Menus text-right">
                 <?php include 'inc/menu.php'; ?>
             </div>
@@ -56,7 +56,7 @@
                                 <div class="rates">
                                     <span class="items-back">02</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                                 <div class="rates">
                                     <span class="items-back">99</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                 <div class="rates">
                                     <span class="items-back">36</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                 <div class="rates">
                                     <span class="items-back">14</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                 <div class="rates">
                                     <span class="items-back">38</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -106,7 +106,7 @@
                                 <div class="rates">
                                     <span class="items-back">38</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -116,7 +116,7 @@
                                 <div class="rates">
                                     <span class="items-back">38</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@
                                 <div class="rates">
                                     <span><ruby>1118 / </ruby><ruby class="items-back">1538</ruby></span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                 <div class="rates">
                                     <span><ruby>114 /</ruby><ruby class="items-back">114</ruby></span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -146,7 +146,7 @@
                                 <div class="rates">
                                     <span class="items-back">136</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@
                                 <div class="rates">
                                     <span class="items-back">14</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                 <div class="rates">
                                     <span class="items-back">38</span>
                                     <div class="icons">
-                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br/>
+                                        <i class="fa fa-angle-up" aria-hidden="true"></i><br />
                                         <i class="fa fa-angle-down" aria-hidden="true"></i>
                                     </div>
                                 </div>

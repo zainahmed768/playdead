@@ -21,12 +21,12 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
-
+                    <?php include 'inc/menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -83,8 +83,9 @@
                             </form>
                             <div class="awards-wrapper pt-4">
                                 <h4>Awards</h4>
-                                
-                                <h6> <a href="gamegrid.php"> <img src="img/charactersta.png" alt=""> Orange Dragon Slayer</a></h6>
+
+                                <h6> <a href="gamegrid.php"> <img src="img/charactersta.png" alt=""> Orange Dragon
+                                        Slayer</a></h6>
                                 <h6><img src="img/darkwar.png" alt="">Drak Worrior</h6>
                             </div>
                         </div>

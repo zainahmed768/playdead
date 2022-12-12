@@ -30,10 +30,10 @@
 
     <!-- Menus -->
     <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-7">
 
-        </div>
-        <div class="col-md-6">
+            </div> -->
+        <div class="col-md-12">
             <div class="Menus text-right">
                 <?php include 'inc/menu.php'; ?>
             </div>

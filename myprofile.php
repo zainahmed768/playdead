@@ -21,10 +21,10 @@
 
     <!-- Menus -->
     <div class="row">
-        <div class="col-md-6">
+        <!-- <div class="col-md-7">
 
-        </div>
-        <div class="col-md-6">
+            </div> -->
+        <div class="col-md-12">
             <div class="Menus text-right">
                 <?php include 'inc/menu.php'; ?>
             </div>
@@ -229,18 +229,18 @@
                                         </a>
                                     </li>
                                     <li class="playersCharacter">
-                                    <a href="character-creation.php">
-                                        <div class="player-img">
-                                            <figure><img src="img/plus.png" alt=""></figure>
-                                        </div>
-                                        <div class="content">
+                                        <a href="character-creation.php">
+                                            <div class="player-img">
+                                                <figure><img src="img/plus.png" alt=""></figure>
+                                            </div>
                                             <div class="content">
-                                                <div class="Fornew">
-                                                    <h5>Create new<br /> character</h5>
-                                                    <!-- <span>Marion</span> -->
+                                                <div class="content">
+                                                    <div class="Fornew">
+                                                        <h5>Create new<br /> character</h5>
+                                                        <!-- <span>Marion</span> -->
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
                                         </a>
                                     </li>
                                 </ul>
@@ -266,7 +266,8 @@
                                         <span>Lorem ipsum dolor sit amet, consectetur elit.</span>
                                         <ul class="about">
                                             <li><img src="img/macrus.png" alt=""> Marcus Fenix</li>
-                                            <li><img src="img/member.png" alt=""> Members : <ruby class="total">24</ruby></li>
+                                            <li><img src="img/member.png" alt=""> Members : <ruby
+                                                    class="total">24</ruby></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -279,7 +280,8 @@
                                         <span>Lorem ipsum dolor sit amet, consectetur elit.</span>
                                         <ul class="about">
                                             <li><img src="img/macrus.png" alt=""> Marcus Fenix</li>
-                                            <li><img src="img/member.png" alt=""> Members : <ruby class="total">24</ruby></li>
+                                            <li><img src="img/member.png" alt=""> Members : <ruby
+                                                    class="total">24</ruby></li>
                                         </ul>
                                     </div>
                                 </div>

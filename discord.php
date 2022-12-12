@@ -21,12 +21,12 @@
 
         <!-- Menus -->
         <div class="row">
-            <div class="col-md-7">
+            <!-- <div class="col-md-7">
 
-            </div>
-            <div class="col-md-5">
+            </div> -->
+            <div class="col-md-12">
                 <div class="Menus text-right">
-                <?php include 'inc/menu.php'; ?>
+                    <?php include 'inc/menu.php'; ?>
                 </div>
             </div>
         </div>
@@ -105,7 +105,8 @@
                             </div>
                             <div class="discord-content-wrapper text-center mt-4">
                                 <h4>Discord.gg</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.</p>
                                 <div class="leader-and-co-leader">
                                     <h5>leader <span class="leader-name">Marcus Fenix</span></h5>
                                     <h5>Co-leader <span class="co-leader-name">John</span></h5>
