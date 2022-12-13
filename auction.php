@@ -48,7 +48,7 @@
                 <figure><img src="img/auction-txt.png" alt="" class="img-fluid"></figure>
             </div>
             <!-- Auction Menus Start Here -->
-            <?php include 'inc/castle-menus.php'?>
+            <!-- <?php include 'inc/castle-menus.php'?> -->
             <!-- Auction Menus End Here -->
             <ul class="auction-items">
                 <li>
@@ -155,30 +155,27 @@
 <!-- FooterLink Include -->
 
 <script>
-setTimeout(() => {
-    console.log('DONEE')
-    $('#WelcomeVdo').fadeOut(400)
-}, 3500)
+// setTimeout(() => {
+//     $('#WelcomeVdo').fadeOut(400)
+// }, 3500)
 
-function SetVideoLoad() {
-    $('#WelcomeVdo').fadeOut(400)
-}
+$('#WelcomeVdo video').bind('ended', function() {
+    $(this).parent().fadeOut()
+})
 
-// function setupVideo() {
-//     // get video
-//     var video = document.getElementById('WelcomeVdo')
-//     // Play the video, this is optional
-//     video.play();
-//     // Add a listener to this video, so that when the video ends, the video is "hidden".
-//     video.addEventListener('ended', function() {
-//         // hide video
-//         video.style.display = "none";
-//     })
+// function SetVideoLoad() {
+//     $('#WelcomeVdo').fadeOut(400)
 // }
-// var vid = document.getElementById("AuctionVdo");
 
-// function enableAutoplay() {
-//     vid.autoplay = true;
-//     vid.load();
-// }
+$('.auction-box .img-box img').click(function() {
+    // console.log($(this).attr("src"))
+    currentImg = $(this).attr("src")
+    $('.auction-items .middle-box img').attr('src', currentImg)
+})
+
+// $('.auction-box').click(function() {
+//     h4Var = $('.txt h4')
+//     ActiveTxt = $(this, h4Var).text();
+//     $('.auction-items .middle-box .txt h4').text(ActiveTxt)
+// })
 </script>
