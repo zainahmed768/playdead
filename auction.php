@@ -8,7 +8,7 @@
 
 <!-- Detail Section Start Here -->
 <div class="welcome_video" id="WelcomeVdo">
-    <video width="100%" heigh="100vh" autoplay>
+    <video onload="SetVideoLoad()" id="AuctionVdo" width="100%" muted heigh="100vh" autoplay>
         <source src="img/welcome.mp4" type="video/mp4">
     </video>
 </div>
@@ -159,4 +159,26 @@ setTimeout(() => {
     console.log('DONEE')
     $('#WelcomeVdo').fadeOut(400)
 }, 3500)
+
+function SetVideoLoad() {
+    $('#WelcomeVdo').fadeOut(400)
+}
+
+// function setupVideo() {
+//     // get video
+//     var video = document.getElementById('WelcomeVdo')
+//     // Play the video, this is optional
+//     video.play();
+//     // Add a listener to this video, so that when the video ends, the video is "hidden".
+//     video.addEventListener('ended', function() {
+//         // hide video
+//         video.style.display = "none";
+//     })
+// }
+// var vid = document.getElementById("AuctionVdo");
+
+// function enableAutoplay() {
+//     vid.autoplay = true;
+//     vid.load();
+// }
 </script>
