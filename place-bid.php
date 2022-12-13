@@ -3,7 +3,7 @@
 <!-- Include App.php -->
 
 <!-- css start here -->
-<link rel="stylesheet" href="css/inventory-detail.css">
+<link rel="stylesheet" href="css/place-bid.css">
 <!-- css start here -->
 
 <!-- Detail Section Start Here -->
@@ -108,15 +108,16 @@
                 <div class="col-lg-7">
                     <div class="product-details">
                         <div class="heading">
+                            <h4 class="end-date">Auction Ends In <span class="time">47 : 59 : 00</span></h4>
                             <h1 class="title">Aldrich's Ruby</h1>
                         </div>
                         <div class="image-with-btn">
                             <div class="img-box">
                                 <figure><img src="img/inventory-single.png" alt=""></figure>
                             </div>
-                            <div class="button-group">
+                            <!-- <div class="button-group">
                                 <button onclick="location.href='item-creation.php';" class="btn">Enhance</button>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="description">
                             <p>
@@ -130,13 +131,12 @@
                                 cillum dolore eu fugiat nulla pariatur.
                             </p>
                         </div>
-                        <div class="button-group">
-                            <button onclick="location.href='trade.php';" class="btn">Trade</button>
-                            <button onclick="location.href='guild.php';" class="btn">Gift</button>
+                        <div class="title">
+                            <h3>place your bit</h3>
                         </div>
                         <div class="button-group">
-                            <button type="button" class="btn w-100 mt-2" data-toggle="modal"
-                                data-target="#myAuctionModal">Sell On Auction</button>
+                            <input type="text" placeholder="$00.00" class="form-control">
+                            <button class="btn">Bit</button>
                         </div>
                     </div>
                 </div>
@@ -144,46 +144,5 @@
         </div>
     </section>
     <!-- Inventory Detail End Here -->
-</div>
 
-<!-- My Auction Modal -->
-<div class="modal fade" id="myAuctionModal" tabindex="-1" role="dialog" aria-labelledby="myAuctionModalTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <form action="auction.php">
-                    <div class="auction-post-box">
-                        <div class="auction-item">
-                            <div class="img-box">
-                                <figure><img src="img/inventory-single.png" alt="" class="img-fluid"></figure>
-                            </div>
-                            <div class="title">
-                                <h3>Aldrich's Ruby</h3>
-                            </div>
-                        </div>
-                        <div class="set-price-and-duration">
-                            <div class="form-group">
-                                <label>Set Minimum Bid Price</label>
-                                <input type="text" placeholder="$20.00" class="form-control">
-                            </div>
-                            <span class="seprator"></span>
-                            <div class="form-group">
-                                <label>Set Duration</label>
-                                <input type="text" placeholder="2 day" class="form-control">
-                            </div>
-                        </div>
-                        <div class="button-group">
-                            <button class="btn">Post</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
 </div>
-<!-- My Auction Modal -->
-
-<!-- Footer Include -->
-<?php include 'inc/footerlinks.php'?>
-<!-- Footer Include -->

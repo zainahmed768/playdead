@@ -57,7 +57,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory2.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -67,7 +67,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory6.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -77,7 +77,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory5.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -87,17 +87,29 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory1.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="auction-box middle-box">
-                        <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
-                        </div>
+                        <a href="place-bid.php">
+                            <div class="img-box">
+                                <figure><img src="img/inventory-single.png" alt="123" class="img-fluid"></figure>
+                            </div>
+                            <div class="txt">
+                                <h4>xyz Awards</h4>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="auction-box">
                         <div class="txt">
                             <h4>xyz Awards</h4>
+                        </div>
+                        <div class="img-box">
+                            <figure><img src="img/inventory10.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -107,7 +119,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory6.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -117,7 +129,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory4.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -127,17 +139,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="auction-box">
-                        <div class="txt">
-                            <h4>xyz Awards</h4>
-                        </div>
-                        <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory5.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
