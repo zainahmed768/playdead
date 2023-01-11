@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("http://fonts.cdnfonts.com/css/aniron?styles=10085");
+
 /* / Fonts  / */
 @font-face {
 	font-family: "aniron";
 	src: url("../fonts/aniron.ttf");
 }
+
 /* / Fonts  / */
 /* / global css🌍  / */
 * {
@@ -15,45 +17,57 @@ button {
 	outline: 0px !important;
 	cursor: pointer !important;
 }
+
 ::-webkit-scrollbar {
 	width: 0;
 }
+
 button {
 	font-size: 11px;
 	font-family: "aniron";
 }
+
 h3 {
 	font-size: 16px;
 	font-family: "aniron";
 }
+
 h4 {
 	font-size: 12px;
 	font-family: "aniron";
 }
+
 h5 {
 	font-size: 8px;
 	font-family: "aniron";
 }
+
 figure {
 	margin-bottom: 0;
 }
+
 a {
 	color: #e3bf4b;
 	cursor: pointer !important;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 .active-wr {
 	border: 3px solid #cfa550;
 }
+
 a.btn-theme:hover {
 	background-position: right;
 }
+
 /* / frame css / */
 body {
 	background-color: #000;
 }
+
 .frame-wrapper {
 	background-image: url(../img/frame2.png);
 	background-size: 100% 100%;
@@ -61,6 +75,7 @@ body {
 	/* height: 100vh; */
 	padding: 4rem 1.7rem 3.4rem;
 }
+
 /* / frame css  / */
 .nav-menu {
 	display: flex;
@@ -70,6 +85,7 @@ body {
 	padding-left: 30px;
 	padding-top: 20px;
 }
+
 /* / global css  / */
 
 /* / Logo Css Start Here  / */
@@ -82,56 +98,67 @@ body {
 	top: -1.5rem;
 	z-index: 9;
 }
+
 a.btn-theme {
 	background-size: 134% !important;
 	background-position: left !important;
 	transition: all 0.3s ease-in;
 }
+
 .Menus .dropdown-menu {
-	background-image: radial-gradient(
-		circle,
-		#2c2c2c,
-		#262626,
-		#212121,
-		#1b1b1b,
-		#161616
-	);
+	background-image: radial-gradient(circle,
+			#2c2c2c,
+			#262626,
+			#212121,
+			#1b1b1b,
+			#161616);
 	border-radius: 0px !important;
 }
+
 .Menus a.dropdown-item {
 	color: #e3bf4b;
 	font-family: "aniron";
 	font-size: 11px;
 	padding: 10px;
 	text-align: center;
+	margin-top: -9px;
+	padding-left: 0;
 }
+
 .Menus a.dropdown-item:hover {
 	background: #e3bf4b;
 	color: #161616;
 }
+
 a.btn-theme:hover {
 	background-position: right !important;
 }
+
 .TopCenter .logoDv figure img {
 	width: 100%;
 }
+
 /* / Logo Css Start Here / */
 .character-wrapper img.char-img {
 	filter: brightness(0.5);
 	transition: all 0.3s ease-in;
 }
+
 .character-wrapper img.char-img:hover {
 	filter: brightness(0.9);
 }
+
 /* / Menu Css Start Here  / */
 .frame-wrapper .nav-menu ul.menus {
 	padding: 0;
 	margin: 0;
 	padding-right: 60px;
 }
+
 .frame-wrapper .nav-menu ul.menus li.menu-items {
 	display: inline-block;
 }
+
 .frame-wrapper .nav-menu ul.menus li.menu-items a.menu-links {
 	color: #e3bf4b;
 	font-size: 12px;
@@ -141,42 +168,51 @@ a.btn-theme:hover {
 	border: 1px solid transparent;
 	padding: 6px 18px;
 }
+
+.frame-wrapper .nav-menu ul.menus li.auction_menu:hover .dropdown-menu {
+	display: block;
+}
+
 .frame-wrapper .nav-menu ul.menus li.menu-items a.menu-links:hover {
 	color: #f1c536;
 	padding: 6px 9px;
 	border: 1px solid #f1c536;
-	background-image: radial-gradient(
-		circle,
-		#2c2c2c,
-		#262626,
-		#212121,
-		#1b1b1b,
-		#161616
-	);
+	background-image: radial-gradient(circle,
+			#2c2c2c,
+			#262626,
+			#212121,
+			#1b1b1b,
+			#161616);
 }
+
 .frame-wrapper .nav-menu ul.menus li.auction_menu a.menu-links:hover {
 	padding: 6px 18px;
 	background: transparent;
 	border: 0 !important;
 	box-shadow: none;
 }
+
 .frame-wrapper .nav-menu ul.menus li.auction_menu a.menu-links {
 	border: 0;
 }
+
 .frame-wrapper .nav-menu ul.menus li.auction_menu .dropdown-menu {
 	background: transparent;
 	border: 0;
 	padding: 0;
 }
+
 .fram-sec .golden-color {
 	color: #ffe698;
 	font-family: "Poppins";
 	font-weight: 300;
 }
+
 /* / Menu Css End Here / */
 .character-list {
 	margin-bottom: 30px;
 }
+
 /* navbar hover effect starts here */
 
 /* navbar hover effect ends here */
@@ -184,21 +220,25 @@ a.btn-theme:hover {
 footer {
 	padding: 20px;
 }
+
 .footer-bg {
 	background: url(../img/footer.png);
 	padding: 82px 0px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+
 footer ul#footer-menu1 {
 	list-style-type: none;
 	display: flex;
 	justify-content: center;
 	padding: 0px;
 }
+
 footer ul#footer-menu1 li {
 	margin: 0px 25px;
 }
+
 footer ul#footer-menu1 li a {
 	color: #ffe698;
 	font-family: "montserrat";
@@ -206,49 +246,59 @@ footer ul#footer-menu1 li a {
 	font-weight: 500;
 	padding: 10px;
 }
+
 footer .footer-des {
 	color: #c9c9c9;
 	font-family: "montserrat";
 	font-size: 16px;
 	font-weight: 400;
 }
+
 @media (max-width: 1280px) {
 	.footer-bg {
 		padding: 70px 0px;
 		background-size: 100% 100%;
 	}
 }
+
 @media (max-width: 990px) {
 	footer ul#footer-menu1 li {
 		margin: 0px 9px;
 	}
 }
+
 @media (max-width: 770px) {
 	.footer-bg {
 		padding: 43px 0px;
 		background-size: 100% 100%;
 	}
+
 	footer .footer-des {
 		font-size: 13px;
 	}
+
 	footer ul#footer-menu1 li a {
 		font-size: 14px;
 	}
 }
+
 @media (max-width: 580px) {
 	.footer-bg {
 		padding: 30px 0px 25px 0px;
 		background-size: 100% 100%;
 	}
 }
+
 @media (max-width: 500px) {
 	footer ul#footer-menu1 li {
 		margin: 0px;
 	}
+
 	footer ul#footer-menu1 li a {
 		font-size: 13px;
 	}
 }
+
 @media (max-width: 479px) {
 	.footer-bg {
 		background-image: url("../img/footer-color.png");
@@ -257,17 +307,21 @@ footer .footer-des {
 		border: 10px solid #c08f34;
 		border-radius: 10px;
 	}
+
 	footer .footer-des {
 		text-align: left;
 	}
+
 	footer ul#footer-menu1 {
 		flex-direction: column;
 		align-items: flex-start;
 	}
+
 	footer ul#footer-menu1 li {
 		margin: 0px;
 	}
 }
+
 .castle-menu-links {
 	padding: 0;
 	margin: 0;
@@ -276,44 +330,43 @@ footer .footer-des {
 	max-width: 67%;
 	margin: 0px auto;
 }
+
 .castle-menu-links li {
 	display: inline-block;
 	margin-bottom: 10px;
 }
+
 .castle-menu-links li a {
-	background-image: linear-gradient(
-		to right,
-		#000002,
-		#101011,
-		#1a191a,
-		#232323,
-		#2c2c2c
-	);
+	background-image: linear-gradient(to right,
+			#000002,
+			#101011,
+			#1a191a,
+			#232323,
+			#2c2c2c);
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #ffe698 !important;
 	font-family: "aniron";
 	font-size: 10px;
 	border: 3px solid;
-	border-image-source: linear-gradient(
-		to right,
-		#b88425,
-		#c5973f,
-		#d2a957,
-		#e0bc6f,
-		#edcf88,
-		#efd28b,
-		#f1d58f,
-		#f3d892,
-		#eacb80,
-		#e1bf6f,
-		#d9b25d,
-		#d0a64c
-	) !important;
+	border-image-source: linear-gradient(to right,
+			#b88425,
+			#c5973f,
+			#d2a957,
+			#e0bc6f,
+			#edcf88,
+			#efd28b,
+			#f1d58f,
+			#f3d892,
+			#eacb80,
+			#e1bf6f,
+			#d9b25d,
+			#d0a64c) !important;
 	border-image-slice: 1;
 	border-width: 3px;
 	transition: all 0.3s ease-in-out;
 	padding: 9px 20px;
 	display: block;
 }
+
 /* / footer css start here  / */

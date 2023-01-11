@@ -91,21 +91,26 @@
     padding-bottom: 20px;
 }
 
+.inventory-detailed .product-details .heading h4.end-date {
+    color: #E3BF4B;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.inventory-detailed .product-details .heading h4.end-date span {
+    color: #fff;
+    font-family: 'aniron';
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
 .inventory-detailed .product-details .image-with-btn {
     display: flex;
     align-items: end;
     justify-content: space-between;
     width: 75%;
     margin-bottom: 20px;
-}
-
-.inventory-detailed .product-details .image-with-btn .button-group {
-    width: 45%;
-}
-
-.inventory-detailed .product-details .button-group {
-    display: flex;
-    width: 75%;
 }
 
 .inventory-detailed .product-details .button-group .btn {
@@ -121,10 +126,8 @@
     cursor: pointer;
 }
 
-.inventory-detailed .product-details .button-group .btn {
-    padding: 13px 10px;
-    width: 100%;
-    margin-right: 10px;
+.inventory-detailed .product-details .image-with-btn .button-group .btn {
+    padding: 14px 65px;
 }
 
 .inventory-detailed .product-details .description p {
@@ -133,106 +136,40 @@
 }
 
 .inventory-detailed .product-details .button-group .btn {
-    padding: 13px 10px;
-    width: 100%;
+    padding: 13px 90px;
 }
 
-/* Inventroy Detail Css Start Here */
-
-/* Inventory Modal Css Start Here */
-#myAuctionModal .modal-dialog {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.inventory-detailed .product-details .title {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-#myAuctionModal .modal-content {
-    background: transparent;
-}
-
-#myAuctionModal .modal-dialog .modal-content {
-    width: 100%;
-}
-
-#myAuctionModal .auction-post-box {
-    text-align: center;
-}
-
-#myAuctionModal {
-    background: #1717174f;
-    backdrop-filter: blur(6px);
-}
-
-#myAuctionModal .auction-post-box .title h3 {
-    font-size: 22px;
+.inventory-detailed .product-details .title h3 {
+    font-size: 15px;
     color: #E3BF4B;
-    line-height: 32px;
 }
 
-#myAuctionModal .auction-post-box .img-box {
-    margin-bottom: 20px;
-}
-
-#myAuctionModal .auction-post-box .set-price-and-duration {
+.inventory-detailed .product-details .button-group {
     display: flex;
-    margin-top: 20px;
+    width: 70%;
 }
 
-#myAuctionModal .auction-post-box .set-price-and-duration .form-group {
-    width: 100%;
-}
-
-#myAuctionModal .auction-post-box .set-price-and-duration span.seprator {
-    margin: 0 6px;
-}
-
-#myAuctionModal .auction-post-box .set-price-and-duration .form-group label {
-    color: #fff;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-#myAuctionModal .auction-post-box .set-price-and-duration .form-control {
-    background-image: linear-gradient(to right, #2c2c2c, #1f1f20, #030305, #040406, #040406);
-    background-repeat: no-repeat;
-    border: 3px solid;
-    border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
-    border-image-slice: 1;
-    border-width: 3px;
-    cursor: pointer;
-    text-align: center;
-    padding: 15px 10px;
-    color: #fff;
+.inventory-detailed .product-details .button-group .form-control {
+    margin-right: 15px;
+    background: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    padding: 0 0;
     font-size: 16px;
     font-family: 'Montserrat';
     font-weight: 500;
-}
-
-#myAuctionModal .auction-post-box .set-price-and-duration .form-control::placeholder {
     color: #fff;
-    font-size: 16px;
-    font-weight: 600;
 }
 
-#myAuctionModal .auction-post-box .button-group .btn {
-    background-image: linear-gradient(to right, #2c2c2c, #1f1f20, #030305, #040406, #040406);
-    background-repeat: no-repeat;
-    border: 3px solid;
-    border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
-    border-image-slice: 1;
-    border-width: 3px;
-    text-align: center;
-    padding: 16px 90px;
-    color: #FFC300;
-    font-size: 16px;
-    font-family: 'aniron';
+.inventory-detailed .product-details .button-group .form-control::placeholder {
+    color: #fff;
     font-weight: 500;
-    margin-top: 5px;
 }
 
-#myAuctionModal .auction-post-box .auction-item {
-    margin-bottom: 35px;
-}
-
-/* Inventory Modal Css End Here */
+/* Inventroy Detail Css Start Here */

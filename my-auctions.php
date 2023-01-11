@@ -44,34 +44,38 @@
             </div>
             <ul class="all-auction-items">
                 <li>
-                    <div class="aucton-box">
-                        <div class="topbar">
-                            <h5>Auction Ends In</h5>
-                            <h4>47 . 59 . 00</h4>
+                    <a href="auction-detail.php">
+                        <div class="aucton-box">
+                            <div class="topbar">
+                                <h5>Auction Ends In</h5>
+                                <h4>47 . 59 . 00</h4>
+                            </div>
+                            <div class="img-box">
+                                <figure><img src="img/myauction1.png" alt="" class="img-fluid"></figure>
+                            </div>
+                            <div class="bottombar">
+                                <h5>Auction Ends In</h5>
+                                <h4>Bid Starting From $10</h4>
+                            </div>
                         </div>
-                        <div class="img-box">
-                            <figure><img src="img/myauction1.png" alt="" class="img-fluid"></figure>
-                        </div>
-                        <div class="bottombar">
-                            <h5>Auction Ends In</h5>
-                            <h4>Bid Starting From $10</h4>
-                        </div>
-                    </div>
+                    </a>
                 </li>
                 <li>
-                    <div class="aucton-box">
-                        <div class="topbar">
-                            <h5>Auction Ends In</h5>
-                            <h4>47 . 59 . 00</h4>
+                    <a href="auction-detail.php">
+                        <div class="aucton-box">
+                            <div class="topbar">
+                                <h5>Auction Ends In</h5>
+                                <h4>47 . 59 . 00</h4>
+                            </div>
+                            <div class="img-box">
+                                <figure><img src="img/myauction2.png" alt="" class="img-fluid"></figure>
+                            </div>
+                            <div class="bottombar">
+                                <h5>Auction Ends In</h5>
+                                <h4>Bid Starting From $10</h4>
+                            </div>
                         </div>
-                        <div class="img-box">
-                            <figure><img src="img/myauction2.png" alt="" class="img-fluid"></figure>
-                        </div>
-                        <div class="bottombar">
-                            <h5>Auction Ends In</h5>
-                            <h4>Bid Starting From $10</h4>
-                        </div>
-                    </div>
+                    </a>
                 </li>
             </ul>
         </div>

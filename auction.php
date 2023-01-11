@@ -8,7 +8,7 @@
 
 <!-- Detail Section Start Here -->
 <div class="welcome_video" id="WelcomeVdo">
-    <video width="100%" heigh="100vh" autoplay>
+    <video onload="SetVideoLoad()" id="AuctionVdo" width="100%" muted heigh="100vh" autoplay>
         <source src="img/welcome.mp4" type="video/mp4">
     </video>
 </div>
@@ -48,7 +48,7 @@
                 <figure><img src="img/auction-txt.png" alt="" class="img-fluid"></figure>
             </div>
             <!-- Auction Menus Start Here -->
-            <?php include 'inc/castle-menus.php'?>
+            <!-- <?php include 'inc/castle-menus.php'?> -->
             <!-- Auction Menus End Here -->
             <ul class="auction-items">
                 <li>
@@ -57,7 +57,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory2.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -67,7 +67,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory6.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -77,7 +77,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory5.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -87,17 +87,29 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory1.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
                 <li>
                     <div class="auction-box middle-box">
-                        <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
-                        </div>
+                        <a href="place-bid.php">
+                            <div class="img-box">
+                                <figure><img src="img/inventory-single.png" alt="123" class="img-fluid"></figure>
+                            </div>
+                            <div class="txt">
+                                <h4>xyz Awards</h4>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="auction-box">
                         <div class="txt">
                             <h4>xyz Awards</h4>
+                        </div>
+                        <div class="img-box">
+                            <figure><img src="img/inventory10.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -107,7 +119,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction1.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory6.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -117,7 +129,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory4.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -127,17 +139,7 @@
                             <h4>xyz Awards</h4>
                         </div>
                         <div class="img-box">
-                            <figure><img src="img/auction2.png" alt="123" class="img-fluid"></figure>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="auction-box">
-                        <div class="txt">
-                            <h4>xyz Awards</h4>
-                        </div>
-                        <div class="img-box">
-                            <figure><img src="img/auction3.png" alt="123" class="img-fluid"></figure>
+                            <figure><img src="img/inventory5.png" alt="123" class="img-fluid"></figure>
                         </div>
                     </div>
                 </li>
@@ -153,8 +155,27 @@
 <!-- FooterLink Include -->
 
 <script>
-setTimeout(() => {
-    console.log('DONEE')
-    $('#WelcomeVdo').fadeOut(400)
-}, 3500)
+// setTimeout(() => {
+//     $('#WelcomeVdo').fadeOut(400)
+// }, 3500)
+
+$('#WelcomeVdo video').bind('ended', function() {
+    $(this).parent().fadeOut()
+})
+
+// function SetVideoLoad() {
+//     $('#WelcomeVdo').fadeOut(400)
+// }
+
+$('.auction-box .img-box img').click(function() {
+    // console.log($(this).attr("src"))
+    currentImg = $(this).attr("src")
+    $('.auction-items .middle-box img').attr('src', currentImg)
+})
+
+// $('.auction-box').click(function() {
+//     h4Var = $('.txt h4')
+//     ActiveTxt = $(this, h4Var).text();
+//     $('.auction-items .middle-box .txt h4').text(ActiveTxt)
+// })
 </script>

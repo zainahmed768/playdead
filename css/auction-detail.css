@@ -1,0 +1,121 @@
+/* Auction Detail Css Start Here */
+.frame-wrapper {
+    background-image: url("../img/myacution-back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 2rem 2rem 3rem;
+    margin: 4.5rem 2rem;
+    position: relative;
+}
+
+.frame-wrapper .border-left img {
+    position: absolute;
+    left: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .border-right img {
+    position: absolute;
+    right: -22px;
+    top: -39px;
+}
+
+.frame-wrapper .centerLogoDv figure img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -70px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.auction_detail {
+    padding: 60px 0 150px;
+}
+
+.auction_detail .about-auction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.auction_detail .about-auction .detail {
+    margin-left: 20px;
+}
+
+.auction_detail .about-auction .detail h4 {
+    font-size: 16px;
+    color: #E3BF4B;
+    font-family: 'Montserrat';
+}
+
+.auction_detail .about-auction .detail h4 span.time {
+    color: #fff;
+    font-family: 'aniron';
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.auction_detail .about-auction .detail h3 {
+    font-size: 26px;
+    color: #E3BF4B;
+    line-height: 36px;
+}
+
+.auction_detail .about-auction .img-box img {
+    max-width: 80px;
+}
+
+.auction_detail .table-responsive td {
+    border: 0;
+    padding: 25px 0;
+    vertical-align: middle;
+}
+
+.auction_detail .table-responsive td.name {
+    color: #E3BF4B;
+    font-size: 20px;
+    font-family: 'aniron';
+}
+
+.auction_detail .table-responsive td.offer {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.auction_detail .table-responsive td.buttons .button-group {
+    display: flex;
+}
+
+.auction_detail .table-responsive td.buttons .button-group button {
+    width: 100%;
+    padding: 12px 0px;
+    margin: 0px 10px;
+    color: #FFC300;
+    font-family: "Aniron";
+    font-size: 13px;
+    border-style: solid;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #b88425, #c5973f, #d2a957, #e0bc6f, #edcf88, #efd28b, #f1d58f, #f3d892, #eacb80, #e1bf6f, #d9b25d, #d0a64c) !important;
+    border-image-slice: 1;
+    background-image: linear-gradient(to right bottom, #000002, #101011, #1a191a, #232323, #2c2c2c);
+    border-radius: 4px;
+}
+
+.auction_detail .table-responsive td.buttons .button-group button:last-child {
+    margin-right: 0;
+}
+
+.auction_detail .table-responsive tr {
+    border-bottom: 1px solid #E3BF4B;
+}
+
+.auction_detail .table-responsive tr:last-child {
+    border-bottom: 0;
+}
+
+/* Auction Detail Css End Here */
