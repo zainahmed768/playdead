@@ -1,0 +1,455 @@
+/* Home Css Start Here */
+.nav-menu {
+	padding-left: 100px;
+	padding-right: 40px;
+	margin-top: -30px;
+}
+.frame-wrapper {
+	background-image: url("../img/crastle-back.png") !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 3rem 0.4rem 3rem !important;
+	margin: 4.5rem 2rem 1rem !important;
+	position: relative;
+}
+
+.frame-wrapper .centerLogoDv figure img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -70px;
+	text-align: center;
+	margin: 0px auto;
+	z-index: 9;
+}
+
+.frame-wrapper .Menus {
+	z-index: 9;
+	position: relative;
+}
+
+.frame-wrapper .border-left img {
+	position: absolute;
+	left: -22px;
+	top: -39px;
+	z-index: 9;
+}
+
+.frame-wrapper .border-right img {
+	position: absolute;
+	right: -22px;
+	top: -39px;
+	z-index: 9;
+}
+
+.home_sec {
+	padding: 40px 0 0px;
+}
+.home_sec .all-images {
+	display: flex;
+	margin-top: -108px;
+}
+.home_sec .all-images .img-box {
+	width: 20%;
+	position: relative;
+	overflow-y: hidden;
+	background: #000;
+}
+.home_sec .all-images .img-box .picture-box {
+	background: #000;
+}
+.home_sec .all-images .img-box .txt-box {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	left: 0;
+	right: 0;
+	height: 190px;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-direction: column;
+	transform: translateY(30%);
+	transition: 0.6s;
+}
+.home_sec .all-images .img-box:hover .txt-box {
+	transform: translateY(-70px);
+}
+.home_sec .all-images .img-box .txt-box figure {
+	min-height: 190px;
+	margin: 0px auto;
+	transition: 0.6s;
+}
+.home_sec .all-images .img-box:hover .txt-box figure {
+	min-height: 110px;
+}
+.home_sec .all-images .img-box .txt-box img {
+	width: 190px;
+	margin: 0px auto;
+}
+.home_sec .all-images .img-box .txt-box .button-group {
+	margin: 0px auto;
+}
+.home_sec .all-images .img-box .txt-box .button-group .btn {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: left;
+	padding: 10px 55px;
+	color: #ffe698 !important;
+	font-family: "aniron";
+	font-size: 12px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	transition: all 0.3s ease-in-out;
+}
+/* Home Css End Here */
+
+/* Play Game Css Start Here */
+.play_game {
+	margin: 0 6rem;
+}
+.play_game .play-game-box {
+	position: relative;
+}
+.play_game .img-box img {
+	border: 3px solid #e6c57a;
+	border-radius: 20px;
+}
+.play_game .play-game-box .button-group {
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	right: 0;
+	margin: 0px auto;
+	text-align: center;
+}
+.play_game .play-game-box .button-group .play-btn {
+	background-image: linear-gradient(
+		to right,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	background-repeat: no-repeat;
+	background-size: 130%;
+	background-position: left;
+	padding: 8px 40px;
+	color: #ffc300 !important;
+	font-family: "aniron";
+	font-size: 12px;
+	border: 3px solid;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-width: 3px;
+	transition: all 0.3s ease-in-out;
+}
+/* Play Game Css End Here */
+
+/* Auction Css Start Here */
+.auction_sec {
+	background-image: url("../img/home-auction.png");
+	background-size: 100% 100%;
+	padding: 70px 200px 30px;
+	margin: 15px 60px;
+}
+.auction_sec ul.auction-items {
+	padding: 250px 0 200px !important;
+}
+/* Auction Css End Here */
+
+/* Pet Sec Start Here */
+.pets_sec {
+	margin: 0 6rem;
+	background-image: url("../img/pet-back.png");
+	background-size: cover;
+	padding: 40px 60px;
+	border: 2px solid #e5c378;
+	border-radius: 25px;
+}
+.pets_sec .heading {
+	text-align: center;
+	padding-bottom: 25px;
+}
+.pets_sec .all-pets {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.pets_sec .all-pets .pet-box {
+	width: 16%;
+	margin: 0 25px;
+}
+.pets_sec .all-pets .pet-box .pet-img {
+	background-image: url(../img/petbox-back.png);
+	border-style: solid;
+	border-width: 2px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	height: 190px;
+	border-image-slice: 1;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pets_sec .all-pets .pet-box .pet-img img {
+	width: 80px;
+}
+.pets_sec .all-pets .pet-box .detail {
+	padding-top: 15px;
+}
+.pets_sec .all-pets .pet-box .detail .name {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.pets_sec .all-pets .pet-box .detail .name .pet-name {
+	color: #e3bf4b;
+	font-size: 16px;
+}
+.pets_sec .all-pets .pet-box .detail .name .pet-price {
+	font-size: 23px;
+	color: #fff;
+}
+.pets_sec .all-pets .pet-box .detail .buy-now-btn {
+	width: 100%;
+	background: linear-gradient(
+		to left bottom,
+		#000002,
+		#101011,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #ffc300;
+	font-family: "aniron";
+	margin-top: 6px;
+}
+/* Pet Sec End Here */
+
+/* Store Sec Css Start Here */
+.store_sec {
+	margin: 15px 60px;
+	background-image: url("../img/store-back.png");
+	background-size: 100% 100%;
+	padding: 100px 60px 150px;
+}
+.store_sec .heading {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.store_sec .heading h3 {
+	font-size: 26px;
+	color: #e3bf4b;
+	line-height: 36px;
+}
+.store_sec .all-items {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.store_sec .all-items .item-box {
+	width: 16%;
+	margin: 0 25px;
+}
+.store_sec .all-items .item-box .item-img {
+	background-image: url(../img/petbox-back.png);
+	border-style: solid;
+	border-width: 2px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	height: 190px;
+	border-image-slice: 1;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.store_sec .all-items .item-box .item-detail .name {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.store_sec .all-items .item-box .item-detail {
+	padding: 12px 0;
+}
+.store_sec .all-items .item-box .item-detail .item-name {
+	font-size: 14px;
+	color: #e3bf4b;
+}
+.store_sec .all-items .item-box .item-detail .item-price {
+	font-size: 22px;
+	color: #ffffff;
+}
+.store_sec .all-items .item-box .item-detail .buy-btn {
+	width: 100%;
+	background: linear-gradient(
+		to left bottom,
+		#000000,
+		#050505,
+		#1a191a,
+		#232323,
+		#2c2c2c
+	);
+	display: block;
+	padding: 10px 10px;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-image-source: linear-gradient(
+		to right,
+		#b88425,
+		#c5973f,
+		#d2a957,
+		#e0bc6f,
+		#edcf88,
+		#efd28b,
+		#f1d58f,
+		#f3d892,
+		#eacb80,
+		#e1bf6f,
+		#d9b25d,
+		#d0a64c
+	) !important;
+	border-image-slice: 1;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #ffc300;
+	font-family: "aniron";
+	margin-top: 6px;
+}
+/* Store Sec Css End Here */
+
+/* History Sec Start Here */
+.archives_sec {
+	margin: 0 6rem;
+	background-image: url(../img/history-back.png);
+	background-size: cover;
+	padding: 60px 60px 80px;
+	border: 2px solid #e5c378;
+	border-radius: 25px;
+}
+.archives_sec .heading {
+	padding-bottom: 10px;
+	text-align: center;
+}
+.archives_sec .heading h3 {
+	font-size: 23px;
+	color: #e3bf4b;
+	line-height: 33px;
+}
+.archives_sec .history-scroll {
+	padding: 0 140px;
+	height: 300px;
+	overflow-y: scroll;
+}
+.archives_sec .history-scroll .content p {
+	color: #ffe799;
+	font-size: 16px;
+	line-height: 26px;
+}
+.archives_sec .history-scroll .content {
+	padding-left: 15px;
+	padding-top: 35px;
+}
+.archives_sec .history-scroll .img-box {
+	margin-top: 35px;
+}
+/* History Sec End Here */
+
+/* Footer Css Start Here */
+footer {
+	padding: 20px 0;
+	margin: 0 60px;
+}
+/* Footer Css End Here */

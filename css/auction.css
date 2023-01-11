@@ -2,7 +2,7 @@
 .welcome_video video {
 	position: absolute;
 	top: 0;
-	z-index: 9;
+	z-index: 99999;
 }
 .frame-wrapper {
 	background-image: url("../img/auction-back.png") !important;
